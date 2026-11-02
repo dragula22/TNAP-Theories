@@ -1,6 +1,8 @@
 # Theoretically Not A Physicist (`TNaP`) — `TNAP-Theories`
 
-> **Official Open-Science & Simulation Repository for the YouTube Channel _Theoretically Not A Physicist (`TNaP`)_ and [`stoler.systems`](https://stoler.systems)**
+> **Official Open-Science & Simulation Repository for the YouTube Channel _Theoretically Not A Physicist (`@TNaPhysicist`)_ and [`stoler.systems`](https://stoler.systems)**
+> - **Watch Episode 1 (4K — Time, Memory, GPS & The `1.000000` Horizon):** [`https://youtu.be/gZXKEAZZLQE`](https://youtu.be/gZXKEAZZLQE)
+> - **Watch Episode 0 (4K Flagship Overview):** [`https://youtu.be/Wsj3BCWtPbc`](https://youtu.be/Wsj3BCWtPbc)
 >
 > **Transparency & Responsible AI Charter:**
 > I am **David Stoler**—an independent builder and outside-the-box thinker, **not** a professional physicist. With modern AI tools, curious builders who never went through a traditional physics PhD now have an extraordinary creative and mathematical partner—**provided we stay grounded, never get things twisted, and never confuse an exploratory AI-assisted toy model with proven, peer-reviewed laws of nature.**
@@ -59,7 +61,9 @@ python simulations/r8_em_duality_split_and_master_ledger.py
 - **[`round8_master_overview/`](round8_master_overview/)** — Electric thread stretch vs. magnetic plaquette twist (`1/137`).
 - **[`series_blueprint/`](series_blueprint/)** — Plain-English Episode 0 script & 6-chapter companion roadmap.
 - **[`simulations/`](simulations/)** — All 29 symbolic (`SymPy`) and numerical (`NumPy`/`SciPy`) Python scripts.
-- **[`episode0_flagship/`](episode0_flagship/)** — Native `4K UHD` (`3840x2160`) PyTorch CUDA 3D physics rendering code, verbatim subtitle manifest, and YouTube thumbnails.
+- **[`science_workbench/`](science_workbench/)** — Interactive multi-engine stress-test suite (`Astropy`, `QuTiP`, `Cirq`, `py-pde`, CMB 3rd-peak Boltzmann solver, GPS `+38.64 µs/day` & `3,189 km` crossover, and `1.000000` Planck-tension black-hole spool).
+- **[`episode0_flagship/`](episode0_flagship/)** — Episode 0 (`https://youtu.be/Wsj3BCWtPbc`) native `4K UHD` (`3840x2160`) PyTorch CUDA 3D physics rendering code, verbatim subtitle manifest, and YouTube thumbnails.
+- **[`episode1_time_and_memory/`](episode1_time_and_memory/)** — Episode 1 (`https://youtu.be/gZXKEAZZLQE`) native `4K UHD` GPU scene engine (`ep1_gpu_scenes.py`), compositor (`render_episode1_4k.py`), chunk deck, and standalone `.srt` subtitles.
 
 ---
 

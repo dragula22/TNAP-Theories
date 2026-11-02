@@ -1,0 +1,1281 @@
+1
+00:00:03,850 --> 00:00:05,260
+Welcome back everyone.
+
+2
+00:00:06,340 --> 00:00:09,260
+My name is David and
+this is Theoretically Not
+
+3
+00:00:09,300 --> 00:00:10,140
+A Physicist.
+
+4
+00:00:11,200 --> 00:00:13,400
+In our flagship introduction video,
+
+5
+00:00:13,600 --> 00:00:15,860
+we stepped back and
+looked at the whole map
+
+6
+00:00:15,900 --> 00:00:18,560
+of our human and AI thought experiment:
+
+7
+00:00:19,200 --> 00:00:20,760
+The Universe Inside Out.
+
+8
+00:00:21,680 --> 00:00:24,700
+Today, we're starting
+our six-part deep dive,
+
+9
+00:00:25,420 --> 00:00:27,220
+taking one big claim at a time,
+
+10
+00:00:27,260 --> 00:00:30,400
+putting it under a
+microscope or telescope,
+
+11
+00:00:30,460 --> 00:00:34,300
+and testing it against real
+laboratory and satellite numbers.
+
+12
+00:00:35,809 --> 00:00:39,239
+And we're starting with the
+single weirdest claim in
+
+13
+00:00:39,279 --> 00:00:40,299
+the entire model:
+
+14
+00:00:40,779 --> 00:00:42,299
+Is time even real?
+
+15
+00:00:43,339 --> 00:00:46,979
+In episode zero, we compared
+the four-dimensional universe
+
+16
+00:00:47,019 --> 00:00:49,739
+to a vinyl record, where yesterday,
+
+17
+00:00:49,939 --> 00:00:52,499
+today, and tomorrow are
+all sitting in the groove
+
+18
+00:00:52,539 --> 00:00:55,439
+at once, and nothing on
+the map actually moves.
+
+19
+00:00:56,119 --> 00:00:58,259
+That sounds great as a metaphor.
+
+20
+00:00:58,924 --> 00:01:03,646
+But can a frozen four-dimensional
+fabric actually pass hard
+
+21
+00:01:03,686 --> 00:01:04,606
+physics tests?
+
+22
+00:01:06,215 --> 00:01:08,647
+In this episode, we're
+going to put that idea
+
+23
+00:01:08,687 --> 00:01:10,887
+through three ruthless checks.
+
+24
+00:01:11,567 --> 00:01:15,247
+First, why your brain only
+remembers the past and
+
+25
+00:01:15,287 --> 00:01:16,107
+never the future.
+
+26
+00:01:16,787 --> 00:01:17,247
+Second,
+
+27
+00:01:17,887 --> 00:01:22,267
+why GPS satellites 20,000
+kilometers above your head run
+
+28
+00:01:22,307 --> 00:01:26,347
+38.6 microseconds fast every single day.
+
+29
+00:01:26,947 --> 00:01:30,487
+And third, where spinning
+black holes push this model
+
+30
+00:01:30,527 --> 00:01:32,027
+to its absolute limit.
+
+31
+00:01:32,727 --> 00:01:33,527
+Let's dive in.
+
+32
+00:01:36,355 --> 00:01:40,288
+Think about how strange
+the word now really is.
+
+33
+00:01:40,689 --> 00:01:43,849
+If time is a river flowing past us,
+
+34
+00:01:43,889 --> 00:01:45,329
+you have to ask:
+
+35
+00:01:45,657 --> 00:01:47,843
+how fast is that river flowing?
+
+36
+00:01:48,663 --> 00:01:50,103
+One second per second?
+
+37
+00:01:50,694 --> 00:01:51,974
+That's not a speed.
+
+38
+00:01:52,583 --> 00:01:53,871
+That's a circle.
+
+39
+00:01:54,591 --> 00:01:58,431
+Over a century ago Albert
+Einstein realized that two
+
+40
+00:01:58,471 --> 00:02:01,771
+observers moving past each
+other can't even agree on
+
+41
+00:02:01,811 --> 00:02:04,291
+which events happen at the same moment.
+
+42
+00:02:04,635 --> 00:02:08,656
+One person's right now
+is already in the other
+
+43
+00:02:08,696 --> 00:02:10,236
+person's past or future.
+
+44
+00:02:11,733 --> 00:02:13,074
+In 1983,
+
+45
+00:02:13,634 --> 00:02:17,834
+physicists Don Page and William
+Wootters took that puzzle
+
+46
+00:02:17,874 --> 00:02:19,274
+to the quantum level.
+
+47
+00:02:20,194 --> 00:02:23,854
+They showed that the entire
+universe can be completely frozen,
+
+48
+00:02:24,414 --> 00:02:28,394
+with zero total energy
+change and zero ticking clock
+
+49
+00:02:28,434 --> 00:02:31,834
+outside it, and yet
+still look full of motion
+
+50
+00:02:31,874 --> 00:02:33,074
+from the inside.
+
+51
+00:02:33,854 --> 00:02:36,374
+In our Python science workbench,
+
+52
+00:02:36,534 --> 00:02:38,634
+using the QuTiP quantum engine,
+
+53
+00:02:39,194 --> 00:02:41,874
+we built a toy version
+of this exact equation,
+
+54
+00:02:42,734 --> 00:02:45,454
+and the outside motion
+comes out to literal zero.
+
+55
+00:02:47,023 --> 00:02:48,335
+Here's the magic trick.
+
+56
+00:02:49,055 --> 00:02:51,915
+When you step inside the
+fabric and look through
+
+57
+00:02:51,955 --> 00:02:53,655
+a local observer channel,
+
+58
+00:02:54,295 --> 00:02:56,615
+measuring one part of the
+weave against a neighboring
+
+59
+00:02:56,655 --> 00:02:57,815
+clock thread,
+
+60
+00:02:58,515 --> 00:03:01,115
+the frozen pattern springs to life.
+
+61
+00:03:02,015 --> 00:03:02,715
+Even better,
+
+62
+00:03:03,335 --> 00:03:06,195
+when we place two separate
+observer channels at opposite
+
+63
+00:03:06,235 --> 00:03:07,675
+ends of our quantum grid,
+
+64
+00:03:08,355 --> 00:03:11,855
+their views of the shared wave match to 15
+
+65
+00:03:11,895 --> 00:03:13,055
+decimal places.
+
+66
+00:03:13,652 --> 00:03:17,414
+They share one consistent
+reality without anything needing
+
+67
+00:03:17,454 --> 00:03:19,474
+to flow from the outside.
+
+68
+00:03:21,365 --> 00:03:25,210
+But any good skeptic should
+immediately raise their hand
+
+69
+00:03:25,250 --> 00:03:26,115
+right there.
+
+70
+00:03:26,854 --> 00:03:30,594
+If the whole four-dimensional
+tapestry is already sitting
+
+71
+00:03:30,634 --> 00:03:34,418
+there, from the smooth
+big bang waist all the
+
+72
+00:03:34,458 --> 00:03:36,576
+way out to the tangled outer rim,
+
+73
+00:03:37,206 --> 00:03:39,983
+why does your life feel
+like a one-way street?
+
+74
+00:03:40,986 --> 00:03:43,451
+Why can you remember what
+you had for breakfast
+
+75
+00:03:43,491 --> 00:03:46,506
+this morning, but you can't
+remember what you'll have
+
+76
+00:03:46,546 --> 00:03:47,697
+for breakfast tomorrow?
+
+77
+00:03:50,821 --> 00:03:54,396
+To answer that we have
+to stop treating memory
+
+78
+00:03:54,436 --> 00:03:57,942
+like a ghost in your head and ask what
+
+79
+00:03:57,982 --> 00:04:00,929
+a memory actually is in physics.
+
+80
+00:04:01,659 --> 00:04:04,280
+Whether it's a photograph on your phone,
+
+81
+00:04:04,945 --> 00:04:06,281
+a crater on the moon,
+
+82
+00:04:06,707 --> 00:04:09,610
+or a new synapse firing in your brain,
+
+83
+00:04:10,341 --> 00:04:13,325
+writing down a memory
+means taking a piece of
+
+84
+00:04:13,365 --> 00:04:16,616
+matter and locking it
+into a new record state.
+
+85
+00:04:18,061 --> 00:04:19,663
+In 1961,
+
+86
+00:04:20,223 --> 00:04:23,883
+an IBM physicist named
+Rolf Landauer proved one of
+
+87
+00:04:23,923 --> 00:04:26,123
+the deepest laws in information science.
+
+88
+00:04:26,983 --> 00:04:30,203
+He showed that resetting
+and locking in even a
+
+89
+00:04:30,243 --> 00:04:31,943
+single binary bit of memory,
+
+90
+00:04:32,463 --> 00:04:34,483
+one tiny yes or no record,
+
+91
+00:04:34,823 --> 00:04:39,163
+is physically impossible
+unless you pay an entropy tax.
+
+92
+00:04:39,883 --> 00:04:42,203
+You have to dump at least a tiny packet
+
+93
+00:04:42,243 --> 00:04:46,963
+of heat equal to Boltzmann's
+constant times temperature times
+
+94
+00:04:47,003 --> 00:04:50,643
+the natural log of 2 out
+into the surrounding fabric.
+
+95
+00:04:52,271 --> 00:04:52,803
+Now,
+
+96
+00:04:53,503 --> 00:04:55,906
+picture our four
+dimensional tapestry again.
+
+97
+00:04:56,475 --> 00:04:59,355
+At one end, what we
+call the big bang waist,
+
+98
+00:04:59,955 --> 00:05:02,335
+the fabric is pulled super smooth,
+
+99
+00:05:02,835 --> 00:05:04,655
+simple, and low entropy.
+
+100
+00:05:05,415 --> 00:05:06,935
+At the wide outer rim,
+
+101
+00:05:07,215 --> 00:05:10,615
+the threads are tangled into
+trillions of microscopic knots.
+
+102
+00:05:11,655 --> 00:05:14,815
+Because Landauer's law says
+every new memory has to
+
+103
+00:05:14,855 --> 00:05:16,715
+add more microscopic tangles,
+
+104
+00:05:17,515 --> 00:05:20,515
+any slice of your brain that
+contains yesterday's memories
+
+105
+00:05:20,555 --> 00:05:23,895
+must sit on the more
+tangled side of yesterday.
+
+106
+00:05:25,435 --> 00:05:28,643
+In other words, you don't
+remember the smooth side
+
+107
+00:05:28,683 --> 00:05:31,966
+of the tapestry because
+time moved forward.
+
+108
+00:05:32,727 --> 00:05:35,544
+You remember the smooth
+side because that's the only
+
+109
+00:05:35,584 --> 00:05:39,017
+direction where the physical
+heat tax of writing a
+
+110
+00:05:39,057 --> 00:05:40,208
+memory can be paid.
+
+111
+00:05:41,123 --> 00:05:44,164
+When you look toward the
+smoother big bang waist,
+
+112
+00:05:44,551 --> 00:05:47,373
+your brain holds a chain
+of recorded footprints.
+
+113
+00:05:48,002 --> 00:05:49,593
+When you look toward the wider,
+
+114
+00:05:49,694 --> 00:05:53,746
+more tangled rim, those footprints
+haven't been paid for yet.
+
+115
+00:05:54,328 --> 00:05:56,872
+So we call that direction the open future.
+
+116
+00:05:58,641 --> 00:06:03,972
+And, remember our two-wing cosmic
+hourglass from episode zero.
+
+117
+00:06:05,192 --> 00:06:07,952
+Because the smooth waist
+sits right in the middle,
+
+118
+00:06:08,692 --> 00:06:12,292
+entropy and entangling grow
+outward on both of the wings.
+
+119
+00:06:13,252 --> 00:06:16,092
+That means, if there's
+an observer living on the
+
+120
+00:06:16,132 --> 00:06:18,732
+twin antimatter wing on
+the other side of the
+
+121
+00:06:18,772 --> 00:06:19,312
+Big Bang,
+
+122
+00:06:20,212 --> 00:06:24,532
+their brain needle also pays
+Landauer's heat tax outward
+
+123
+00:06:24,572 --> 00:06:25,832
+from the waist.
+
+124
+00:06:26,493 --> 00:06:30,163
+To them, the Big Bang is also the distant
+
+125
+00:06:30,203 --> 00:06:33,923
+past, and their time feels
+just as normal as ours.
+
+126
+00:06:36,992 --> 00:06:40,455
+Okay, explaining memory is step one.
+
+127
+00:06:41,000 --> 00:06:43,120
+Step two is much tougher.
+
+128
+00:06:43,920 --> 00:06:46,880
+If time isn't a separate
+thing that curves in
+
+129
+00:06:46,920 --> 00:06:47,840
+empty space,
+
+130
+00:06:48,480 --> 00:06:51,500
+if it's just the local
+vibration rate of knots
+
+131
+00:06:51,540 --> 00:06:54,820
+inside of a stretched
+four-dimensional fabric,
+
+132
+00:06:55,180 --> 00:06:58,980
+can that fabric predict the
+exact numbers engineers see
+
+133
+00:06:59,020 --> 00:07:02,080
+in real satellites
+orbiting Earth right now?
+
+134
+00:07:03,586 --> 00:07:06,647
+In our model, a heavy mass like the Earth
+
+135
+00:07:06,687 --> 00:07:09,367
+pulls the surrounding fabric inward,
+
+136
+00:07:10,107 --> 00:07:13,427
+packing the threads denser
+near the ground and leaving
+
+137
+00:07:13,467 --> 00:07:15,247
+them looser high up in space,
+
+138
+00:07:15,807 --> 00:07:19,207
+just like glass that gets
+denser toward the center
+
+139
+00:07:19,247 --> 00:07:19,947
+of a lens.
+
+140
+00:07:21,047 --> 00:07:23,907
+When an atomic clock
+sits down here on Earth,
+
+141
+00:07:24,147 --> 00:07:26,047
+where the weave is tightly packed,
+
+142
+00:07:26,727 --> 00:07:30,727
+its internal electromagnetic
+waves take slightly longer to
+
+143
+00:07:30,767 --> 00:07:33,127
+bounce back and forth than they do high up
+
+144
+00:07:33,167 --> 00:07:33,667
+in orbit.
+
+145
+00:07:35,227 --> 00:07:36,055
+Right now,
+
+146
+00:07:36,695 --> 00:07:42,955
+31 GPS satellites are circling
+Earth 20,184 kilometers above
+
+147
+00:07:42,995 --> 00:07:47,195
+sea level, traveling at nearly
+14,000 kilometers an hour.
+
+148
+00:07:47,815 --> 00:07:51,355
+Their atomic clocks feel two
+opposite effects at once.
+
+149
+00:07:52,082 --> 00:07:55,182
+First, because the satellite
+is moving fast through the
+
+150
+00:07:55,222 --> 00:07:59,382
+weave, its internal wave paths
+stretch out into diagonals,
+
+151
+00:07:59,622 --> 00:08:03,522
+slowing the clock down by
+7.2 microseconds per day.
+
+152
+00:08:04,966 --> 00:08:08,783
+Second, because the satellite
+is high up where Earth's
+
+153
+00:08:08,823 --> 00:08:10,443
+pull on the fabric is much weaker,
+
+154
+00:08:11,043 --> 00:08:14,223
+the looser weave lets the
+clock vibrate faster by
+
+155
+00:08:14,263 --> 00:08:16,883
+45.8 microseconds per day.
+
+156
+00:08:17,583 --> 00:08:22,423
+Put minus 7.2 and plus
+45.8 together and the
+
+157
+00:08:22,463 --> 00:08:27,983
+satellite clock gains exactly 38.6
+microseconds every single day.
+
+158
+00:08:28,683 --> 00:08:32,183
+If engineers didn't program
+that exact offset into GPS
+
+159
+00:08:32,223 --> 00:08:35,283
+hardware, your phone's map
+would drift off the road
+
+160
+00:08:35,323 --> 00:08:37,243
+by over 11 kilometers a day.
+
+161
+00:08:39,109 --> 00:08:42,082
+And when we plotted the
+full altitude curve in
+
+162
+00:08:42,122 --> 00:08:44,262
+tab 7 of our science workbench,
+
+163
+00:08:44,662 --> 00:08:47,442
+you can see a really cool crossover point.
+
+164
+00:08:47,922 --> 00:08:49,502
+Down in low Earth orbit,
+
+165
+00:08:49,662 --> 00:08:50,802
+at 400 kilometers,
+
+166
+00:08:51,442 --> 00:08:55,862
+the International Space Station
+moves so fast that speed-slowing
+
+167
+00:08:55,902 --> 00:09:00,262
+wins, and astronauts actually
+age about 28 microseconds a
+
+168
+00:09:00,302 --> 00:09:01,982
+day slower than we do.
+
+169
+00:09:02,704 --> 00:09:07,184
+Then, at exactly 3189 kilometers up,
+
+170
+00:09:07,644 --> 00:09:11,184
+half an Earth radius, the
+two effects cancel to zero.
+
+171
+00:09:14,127 --> 00:09:18,223
+Matching GPS satellites proves
+that a stretched fabric works
+
+172
+00:09:18,263 --> 00:09:19,963
+in Earth's gentle gravity.
+
+173
+00:09:20,963 --> 00:09:24,643
+Historically though, plenty
+of toy gravity ideas pass weak
+
+174
+00:09:24,683 --> 00:09:25,783
+tests near Earth,
+
+175
+00:09:26,443 --> 00:09:28,643
+and then crash and burn
+when gravity gets stronger.
+
+176
+00:09:29,943 --> 00:09:32,263
+So we threw three of astrophysics'
+
+177
+00:09:32,603 --> 00:09:35,963
+toughest precision benchmarks at
+our exponential weave equation.
+
+178
+00:09:37,425 --> 00:09:40,678
+First, planet Mercury
+orbits so close to the Sun
+
+179
+00:09:40,718 --> 00:09:43,478
+that the extra tension
+in the weave makes its
+
+180
+00:09:43,518 --> 00:09:48,998
+oval orbit slowly rotate by
+42.98 arcseconds per century.
+
+181
+00:09:49,778 --> 00:09:53,238
+And our exponential fabric
+profile hits that exact number.
+
+182
+00:09:54,118 --> 00:09:57,998
+Second, when NASA's Cassini
+spacecraft beamed radio signals
+
+183
+00:09:58,038 --> 00:09:59,858
+right past the edge of the Sun on its
+
+184
+00:09:59,898 --> 00:10:03,198
+way to Saturn, the denser
+weave delayed those radio
+
+185
+00:10:03,238 --> 00:10:05,518
+waves by precisely the amount predicted,
+
+186
+00:10:05,558 --> 00:10:08,978
+matching to within two parts in 100,000.
+
+187
+00:10:10,606 --> 00:10:13,388
+Third, and the most dramatic of all:
+
+188
+00:10:13,788 --> 00:10:15,908
+in August 2017,
+
+189
+00:10:16,488 --> 00:10:21,528
+observatories detected two
+ultra-dense neutron stars slamming
+
+190
+00:10:21,568 --> 00:10:25,528
+into each other 130
+million light-years away.
+
+191
+00:10:26,588 --> 00:10:29,848
+That crash sent out both
+a flash of gamma-ray
+
+192
+00:10:29,888 --> 00:10:33,728
+light and a ripple of
+gravity across the cosmos.
+
+193
+00:10:34,848 --> 00:10:38,648
+After traveling for 130 million years,
+
+194
+00:10:39,048 --> 00:10:42,308
+the gravity wave and the
+light flash arrived at
+
+195
+00:10:42,348 --> 00:10:45,748
+Earth within 1.7 seconds of each other.
+
+196
+00:10:47,437 --> 00:10:51,523
+Why did that single
+observation wipe out dozens of
+
+197
+00:10:51,563 --> 00:10:53,543
+alternative gravity theories overnight?
+
+198
+00:10:54,523 --> 00:10:56,463
+Because in our stretched fabric,
+
+199
+00:10:57,063 --> 00:11:01,103
+both light and gravitational
+waves are sideways shear ripples
+
+200
+00:11:01,143 --> 00:11:03,963
+riding on the exact same taut threads.
+
+201
+00:11:04,863 --> 00:11:07,343
+They don't travel through
+two different mediums.
+
+202
+00:11:08,183 --> 00:11:11,243
+They're two ways of plucking
+the same silk weave,
+
+203
+00:11:11,703 --> 00:11:15,383
+locking their speeds together
+to one part in a quadrillion.
+
+204
+00:11:18,487 --> 00:11:21,507
+Before we look at where
+this chapter struggles,
+
+205
+00:11:21,647 --> 00:11:23,707
+I want to share a cool discovery we just
+
+206
+00:11:23,747 --> 00:11:27,767
+made using Lacuna, a new
+AI research map covering
+
+207
+00:11:27,807 --> 00:11:30,487
+over 2.2 million scientific papers.
+
+208
+00:11:31,058 --> 00:11:35,018
+When we searched Lacuna
+for wave medium gravity,
+
+209
+00:11:35,198 --> 00:11:39,738
+it surfaced a remarkable
+physics paper by Itay Griniasty
+
+210
+00:11:39,778 --> 00:11:43,078
+and colleagues, proving
+even in a real water wave
+
+211
+00:11:43,118 --> 00:11:48,038
+laboratory tank, that any continuous
+wave medium with background
+
+212
+00:11:48,078 --> 00:11:52,738
+ripples naturally creates an
+Unruh horizon temperature for
+
+213
+00:11:52,778 --> 00:11:54,198
+accelerating observers.
+
+214
+00:11:55,885 --> 00:12:00,446
+That gives real peer-reviewed
+backing to our wave fabric intuition.
+
+215
+00:12:01,586 --> 00:12:03,526
+Now, keeping our channel's promise,
+
+216
+00:12:04,086 --> 00:12:06,526
+let's turn the red team
+spotlight on ourselves.
+
+217
+00:12:07,446 --> 00:12:11,106
+Where does replacing curved
+empty spacetime with a stretched
+
+218
+00:12:11,146 --> 00:12:14,446
+4-dimensional weave run into
+real mathematical pushback?
+
+219
+00:12:16,050 --> 00:12:18,943
+Hurdle number one is spinning masses.
+
+220
+00:12:19,963 --> 00:12:23,063
+A non spinning star or
+planet just pulls the
+
+221
+00:12:23,103 --> 00:12:27,483
+fabric inward and our simple density
+formula handles that beautifully.
+
+222
+00:12:28,603 --> 00:12:30,863
+But when a massive black
+hole spins at nearly
+
+223
+00:12:30,903 --> 00:12:31,963
+the speed of light,
+
+224
+00:12:32,683 --> 00:12:36,043
+what physicists call the Kerr
+metric doesn't just stretch
+
+225
+00:12:36,083 --> 00:12:40,543
+space, it twists and drags
+space around like a whirlpool.
+
+226
+00:12:41,623 --> 00:12:44,523
+To match that smoothly
+without extra friction,
+
+227
+00:12:45,243 --> 00:12:46,783
+our weave can't just sit still.
+
+228
+00:12:47,383 --> 00:12:51,103
+It has to support frictionless
+superfluid vortex swirl.
+
+229
+00:12:52,796 --> 00:12:54,054
+And get this.
+
+230
+00:12:54,529 --> 00:12:56,329
+Right while we were building this episode,
+
+231
+00:12:56,529 --> 00:12:58,129
+another question hit me:
+
+232
+00:12:58,549 --> 00:13:01,089
+If a black hole spins billions of times,
+
+233
+00:13:01,469 --> 00:13:04,069
+why don't those space
+threads eventually snap?
+
+234
+00:13:05,209 --> 00:13:08,949
+In our superfluid equation,
+the smallest scale is literally
+
+235
+00:13:08,989 --> 00:13:10,849
+called the healing length.
+
+236
+00:13:11,749 --> 00:13:15,229
+Overstretched threads briefly
+melt across a single Planck
+
+237
+00:13:15,269 --> 00:13:19,329
+width, slip one turn, and
+weld right back together.
+
+238
+00:13:19,989 --> 00:13:22,849
+What's even wilder is
+when we checked the math
+
+239
+00:13:22,889 --> 00:13:26,669
+of winding unbreakable
+Planck-tension fishing line onto a
+
+240
+00:13:26,709 --> 00:13:27,489
+central reel.
+
+241
+00:13:28,229 --> 00:13:31,849
+The wound sphere grew at
+the exact black-hole horizon
+
+242
+00:13:31,889 --> 00:13:34,409
+radius, up to six decimal places.
+
+243
+00:13:36,219 --> 00:13:39,097
+Hurdle number two happens
+right at the edge of
+
+244
+00:13:39,137 --> 00:13:39,917
+a black hole.
+
+245
+00:13:40,857 --> 00:13:42,437
+In textbook relativity,
+
+246
+00:13:43,057 --> 00:13:46,297
+falling past the event
+horizon is a one-way trapdoor
+
+247
+00:13:46,337 --> 00:13:48,157
+into a singular point.
+
+248
+00:13:49,217 --> 00:13:52,877
+In an exponential weave, the
+thread density keeps climbing
+
+249
+00:13:52,917 --> 00:13:58,137
+smoothly into an ultra-dense,
+nearly frozen throat instead
+
+250
+00:13:58,177 --> 00:14:00,077
+of tearing into a singularity.
+
+251
+00:14:00,770 --> 00:14:04,120
+Could future gravitational
+wave ring-down detectors spot
+
+252
+00:14:04,160 --> 00:14:06,600
+a tiny echo from that dense throat?
+
+253
+00:14:07,540 --> 00:14:10,020
+That's a concrete way
+future data could prove this
+
+254
+00:14:10,060 --> 00:14:12,260
+model right, or dead wrong.
+
+255
+00:14:15,338 --> 00:14:17,793
+We've added all the math and the code from
+
+256
+00:14:17,833 --> 00:14:21,873
+today's episode into two
+brand new interactive tabs in
+
+257
+00:14:21,913 --> 00:14:25,553
+our Python Science Workbench
+and published the results on
+
+258
+00:14:25,593 --> 00:14:29,393
+stoler.systems and our open
+source GitHub repository.
+
+259
+00:14:30,033 --> 00:14:33,893
+You can drag the satellite
+altitude slider yourself from
+
+260
+00:14:33,933 --> 00:14:36,813
+the International Space
+Station all the way past GPS
+
+261
+00:14:36,853 --> 00:14:40,653
+orbit and watch the speed
+and general relativity curves
+
+262
+00:14:40,693 --> 00:14:42,093
+cross in real time.
+
+263
+00:14:43,583 --> 00:14:44,326
+Remember,
+
+264
+00:14:44,912 --> 00:14:49,733
+we're also keeping a living
+scorecard across all six chapters.
+
+265
+00:14:50,692 --> 00:14:52,652
+At the end of this series we'll make a
+
+266
+00:14:52,692 --> 00:14:56,410
+full recap and update video
+reviewing every new paper
+
+267
+00:14:56,450 --> 00:14:57,227
+we uncover,
+
+268
+00:14:58,186 --> 00:15:00,019
+every equation that held up,
+
+269
+00:15:00,428 --> 00:15:03,139
+and the sharpest critiques
+you leave in the comments.
+
+270
+00:15:03,923 --> 00:15:06,388
+So if you spot a flaw or a test
+
+271
+00:15:06,428 --> 00:15:07,359
+that we missed,
+
+272
+00:15:08,010 --> 00:15:09,183
+drop it down below.
+
+273
+00:15:09,945 --> 00:15:12,366
+Subscribe to the channel
+and tell me if you
+
+274
+00:15:12,406 --> 00:15:14,414
+guys are interested in
+setting up a Discord.
+
+275
+00:15:16,144 --> 00:15:18,270
+Next time, in Episode 2,
+
+276
+00:15:18,890 --> 00:15:21,590
+we're traveling all the
+way to the narrow waist
+
+277
+00:15:21,630 --> 00:15:26,470
+of the cosmic hourglass to
+tackle the upside-down Big Bang,
+
+278
+00:15:27,470 --> 00:15:32,130
+why the cosmic microwave
+sky is mysteriously quiet on
+
+279
+00:15:32,170 --> 00:15:33,050
+giant scales,
+
+280
+00:15:33,750 --> 00:15:36,230
+and where all the
+universe's antimatter went.
+
+281
+00:15:37,370 --> 00:15:38,190
+Thanks for watching,
+
+282
+00:15:38,770 --> 00:15:41,730
+stay inquisitive, and
+I'll see you in Chapter 2.

@@ -1,0 +1,8 @@
+CHAPTERS:
+00:00 Welcome Back: Is Time Even Real?
+01:36 Chapter 1 — Why 'Flowing Time' Breaks Down & Page-Wootters
+03:50 Chapter 2 — The Brain Needle & Landauer's Heat Tax of Memory
+06:36 Chapter 3 — The 20,000-km GPS Test (+38.6 Microseconds/Day)
+09:13 Chapter 4 — Mercury, Cassini & Colliding Neutron Stars (GW170817)
+11:18 Chapter 5 — Lacuna AI Audit & Honest Black Hole Hurdles (Kerr)
+14:15 Chapter 6 — Interactive Python Lab, Discord & Episode 2 Preview

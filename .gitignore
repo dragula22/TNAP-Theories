@@ -8,6 +8,8 @@
 *.pfx
 *.secret
 *credentials*
+*client_secret*.json
+*youtube_token*.json
 *spaceship*
 
 # Website files (excluded from theories repository)
