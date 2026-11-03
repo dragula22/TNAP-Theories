@@ -15,6 +15,8 @@
 ## NEW — Official Blind Pre-Registration Ahead of ESA `Gaia DR4` (Dec 2, 2026) & `BHEX`
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23919217.svg)](https://doi.org/10.5281/zenodo.23919217)
+[![Code License: AGPL v3](https://img.shields.io/badge/Code_License-GNU_AGPLv3-blue.svg)](LICENSE)
+[![Docs & Visuals: CC BY 4.0](https://img.shields.io/badge/Papers_%26_Visuals-CC_BY_4.0-lightgrey.svg)](LICENSE-DOCS.md)
 
 Before ESA opens the 66-month **`Gaia Data Release 4`** catalog on **December 2, 2026**, we have locked zero-free-parameter 3D conservative QUMOND wide-binary predictions and 2PN **`BHEX`** black-hole photon-ring numbers (with explicit falsification cutoffs, CERN Zenodo DOI **`10.5281/zenodo.23919217`**, and cryptographic `SHA-256` verification):
 
@@ -109,3 +111,12 @@ Several intuitions explored here connect directly to peer-reviewed literature by
 ## 5. Spot a Flaw? Open an Issue!
 
 Disagree with a step, spot an algebraic mistake, or know an observational constraint that sinks one of these claims? Please open a **GitHub Issue** with the script or monograph filename and tell us what we missed!
+
+---
+
+## 6. Open-Science Dual Licensing (`AGPL-3.0` + `CC BY 4.0`)
+
+Copyright &copy; 2026 **David Stoler** (*Theoretically Not A Physicist* — [`stoler.systems`](https://stoler.systems) | [`@TNaPhysicist`](https://www.youtube.com/@TNaPhysicist)).
+
+- **Source Code & Simulation Engines ([`LICENSE`](LICENSE)):** Licensed under the **GNU Affero General Public License v3.0 (`AGPL-3.0-only`)**. Anyone is free to inspect, run, test, and modify the code—provided all modified or network-hosted versions **remain 100% open-source under `AGPL-3.0`** and preserve attribution to David Stoler ([`NOTICE`](NOTICE)). Closed-source or proprietary relicensing is strictly prohibited.
+- **Monographs, Papers, Subtitles & Visual Assets ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)):** Licensed under **Creative Commons Attribution 4.0 International (`CC BY 4.0`)**—free to share, cite, and build upon with clear attribution to David Stoler (`https://stoler.systems` / DOI [`10.5281/zenodo.23919217`](https://doi.org/10.5281/zenodo.23919217)).

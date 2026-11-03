@@ -11,7 +11,7 @@ doi: "10.5281/zenodo.23919217"
 date-released: "2026-11-03"
 url: "https://stoler.systems"
 repository-code: "https://github.com/dragula22/TNAP-Theories"
-license: "MIT"
+license: "AGPL-3.0-only"
 keywords:
   - "Gaia DR4"
   - "wide binaries"
