@@ -11,13 +11,34 @@
 
 ---
 
+## NEW — Official Blind Pre-Registration Ahead of ESA `Gaia DR4` (Dec 2, 2026) & `BHEX`
+
+Before ESA opens the 66-month **`Gaia Data Release 4`** catalog on **December 2, 2026**, we have locked zero-free-parameter 3D conservative QUMOND wide-binary predictions and 2PN **`BHEX`** black-hole photon-ring numbers (with explicit falsification cutoffs and cryptographic `SHA-256` verification):
+
+- **Read the Full Blind Pre-Registration:** **[`predictions_2026_blind/PREREGISTRATION_GAIA_DR4_AND_BHEX.md`](predictions_2026_blind/PREREGISTRATION_GAIA_DR4_AND_BHEX.md)**
+- **Locked Machine-Readable Manifest (`SHA-256`):** [`predictions_2026_blind/preregistered_numbers_2026_11.json`](predictions_2026_blind/preregistered_numbers_2026_11.json) (`fa1f5cc50885f1de71fde71201a9320d6c071e44c586708207fb8fc3fe471328`)
+- **Verify Every Number on CPU in 12 Seconds:**
+  ```bash
+  python predictions_2026_blind/run_gaia_dr4_and_bhex_preregistration.py
+  ```
+
+| Blind Test | `Lambda-CDM` / GR Baseline | **Locked Zero-Knob `TNaP` Forecast** |
+| :--- | :---: | :---: |
+| **`Gaia DR4` Local Backyard (`d <= 300 pc`, `15,000 AU`)** | `0.00%` boost | **`+16.14%`** *(`[+14.81% .. +16.60%]` MW $V_c$ bracket)* |
+| **`Gaia DR4` Galactic Compass Split (`d <= 300 pc`, `15k AU`)** | `0.00%` (`0°` vs `90°`) | **`+17.08%` (GC Aligned) vs `+15.37%` (Perp)** *(`+1.71%`)* |
+| **`Gaia DR4` Environment Step (`d <= 2.5 kpc`, `15k AU`)** | `0.00% -> 0.00% -> 0.00%` | **`+12.16%` (Inner) $\to$ `+20.98%` (Thick) $\to$ `+25.64%` (Lower Halo)** |
+| **`BHEX` Space-VLBI Photon-Ring Shadow ($a_* = 0$)** | `5.1962 r_g` *(all-spin ceiling)* | **`5.4366 r_g` (`+4.63%` wider across all spins)** |
+
+---
+
 ## 1. Honest Peer-Review Scorecard: What Was Tested vs. What Remains Unsolved
 
 | Tier | Status | Exact Scope in This Repository |
 | :--- | :--- | :--- |
 | **Symbolic Identities (`SymPy`)** | **Verified Algebraically** | Exact Bose–Einstein / McGaugh RAR interpolation bridge (`1/(1 - exp(-sqrt(y)))`), smooth 4D Euclidean catenoid waist curvature (`K_max = 24 / r_0^4 < infinity`), reciprocal two-boundary conserved double-slit current (`div j_fi = 0`), and electromagnetic impedance identity (`alpha_EM = Z_0 / (2 R_K) = 1/137.035999`). |
+| **3D Variational PDE & Two-Body Solvers** | **Verified Numerically** | Self-force-free 3D conservative two-body QUMOND wide-binary solver (`predictions_2026_blind/`), plus 60-second (`7,200`-substep) 3D unit-sphere Skyrme–Faddeev knot stability (`Q_H = +7, +9, -6`) and `1.06 Gyr` (`1,000,000`-star) 3D finite-volume QUMOND galactic disk stability in `WeaveForge`. |
 | **Simplified Toy Solvers (`NumPy` / `SciPy`)** | **1D / Radial Proxies Only** | 1D Split-Step Gross–Pitaevskii soliton pass-through (`4,574 km/s` Bullet Cluster offset proxy) vs. slow rebound (`14 km/s`), 1D BBN freeze-out ODE check, `DESI DR2` background expansion quadrature, and analytic `SPARC` RAR curve comparison. |
-| **Major Unsolved Physics Hurdles** | **Open — Help Critique!** | **Not yet solved:** (1) Full `CLASS` / `CAMB` 2,500-multipole CMB Boltzmann acoustic peak spectrum without cold dark matter dust; (2) Full 3D relativistic magnetohydrodynamic + weak-lensing cluster merger simulation; (3) Individual MCMC mass-to-light fits across all 175 raw `SPARC` galaxy tables; (4) A single UV-complete Lorentz-covariant Standard Model Lagrangian. |
+| **Major Unsolved Physics Hurdles** | **Open — Help Critique!** | **Not yet solved:** (1) Micro-to-macro emergence of $1/r^2$ knot-knot attraction and `exp(2U)` refraction from a single unified knot + massless tension action; (2) Full `CLASS` / `CAMB` 2,500-multipole `TT/TE/EE` CMB perturbation evolution through pinned pleats; (3) Full 3D relativistic MHD + weak-lensing cluster merger simulation. |
 
 ---
 

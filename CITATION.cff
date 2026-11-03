@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you reference or test these pre-registered Gaia DR4 and BHEX predictions, please cite this repository and its Zenodo archive."
+title: "TNAP-Theories: Pre-Registered Blind Predictions Ahead of ESA Gaia DR4 (Dec 2026) & BHEX Photon-Ring Tests"
+type: software
+authors:
+  - family-names: "Stoler"
+    given-names: "David"
+    affiliation: "Theoretically Not A Physicist (@TNaPhysicist) — stoler.systems"
+version: "1.0.0-preregistered-2026-11"
+date-released: "2026-11-03"
+url: "https://stoler.systems"
+repository-code: "https://github.com/dragula22/TNAP-Theories"
+license: "MIT"
+keywords:
+  - "Gaia DR4"
+  - "wide binaries"
+  - "External Field Effect"
+  - "QUMOND"
+  - "Black Hole Explorer"
+  - "BHEX"
+  - "modified gravity"
+  - "blind pre-registration"

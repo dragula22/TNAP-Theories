@@ -1,0 +1,190 @@
+{
+  "schema": "TNaP-Blind-Preregistration-v1.0",
+  "preregistration_date_iso": "2026-11-03",
+  "target_missions": [
+    "ESA Gaia Data Release 4 (Scheduled December 2, 2026)",
+    "Black Hole Explorer (BHEX) Space-VLBI Mission (M87* & Sgr A* Photon Ring)"
+  ],
+  "zero_free_parameters": {
+    "a0_formula": "c * H0 / (sqrt(3) * pi)",
+    "a0_planck2018_67p36_mps2": 1.202712e-10,
+    "a0_astropy_planck18_67p66_mps2": 1.208069e-10,
+    "a0_shoes_73p04_mps2": 1.304129e-10,
+    "interpolation_nu": "1 / (1 - exp(-sqrt(y)))",
+    "field_equation_3d": "nabla^2 Phi_eff = -nabla . [ nu(|g_N|/a0) * g_N ]",
+    "solar_campfire_transition_1msun_au": 7021.8
+  },
+  "gaia_dr4_predictions": {
+    "solar_neighborhood_mcmillan2017_yn": 1.1843,
+    "solar_separation_curve_0p8_plus_0p8_msun": [
+      {
+        "separation_au": 1000.0,
+        "tnap_3d_qumond_v_boost_pct": -0.07,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 2000.0,
+        "tnap_3d_qumond_v_boost_pct": 0.25,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 3500.0,
+        "tnap_3d_qumond_v_boost_pct": 2.37,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 5000.0,
+        "tnap_3d_qumond_v_boost_pct": 5.75,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 7000.0,
+        "tnap_3d_qumond_v_boost_pct": 10.31,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 10000.0,
+        "tnap_3d_qumond_v_boost_pct": 14.48,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 15000.0,
+        "tnap_3d_qumond_v_boost_pct": 16.14,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      },
+      {
+        "separation_au": 20000.0,
+        "tnap_3d_qumond_v_boost_pct": 16.44,
+        "lcdm_smooth_halo_v_boost_pct": 0.0
+      }
+    ],
+    "solar_15000_au_astrophysical_brackets_pct": {
+      "mcmillan2017_vc_232p8_primary": 16.14,
+      "eilers2019_vc_229p0_upper": 16.6,
+      "klioner2021_quasar_aberration_lower": 14.81,
+      "shoes_h0_73p04_variant": 17.69,
+      "lambda_cdm_smooth_dark_matter": 0.0
+    },
+    "local_galactic_compass_anisotropy_15000_au_pct": {
+      "aligned_with_galactic_center_theta_0_deg": 17.08,
+      "perpendicular_to_galactic_center_theta_90_deg": 15.37,
+      "anisotropy_split_aligned_minus_perp_pct": 1.71,
+      "lambda_cdm_split_pct": 0.0
+    },
+    "galactocentric_environment_gradient_15000_au": [
+      {
+        "zone": "Inner Disk (R=6.8 kpc, |z|<0.3 kpc, d~1.4 kpc)",
+        "g_obs_mw_mps2": 2.75e-10,
+        "y_n_baryon": 1.6548,
+        "tnap_15k_au_v_boost_pct": 12.16,
+        "lcdm_15k_au_v_boost_pct": 0.0
+      },
+      {
+        "zone": "Solar Neighborhood (R=8.18 kpc, |z|<0.2 kpc, d<0.3 kpc)",
+        "g_obs_mw_mps2": 2.148e-10,
+        "y_n_baryon": 1.1843,
+        "tnap_15k_au_v_boost_pct": 16.14,
+        "lcdm_15k_au_v_boost_pct": 0.0
+      },
+      {
+        "zone": "Outer Thick Disk (R=9.8 kpc, |z|=1.2 kpc, d~2.0 kpc)",
+        "g_obs_mw_mps2": 1.66e-10,
+        "y_n_baryon": 0.8231,
+        "tnap_15k_au_v_boost_pct": 20.98,
+        "lcdm_15k_au_v_boost_pct": 0.0
+      },
+      {
+        "zone": "Reachable Lower Halo (R=10.5 kpc, |z|=2.2 kpc, d~2.5 kpc)",
+        "g_obs_mw_mps2": 1.32e-10,
+        "y_n_baryon": 0.5876,
+        "tnap_15k_au_v_boost_pct": 25.64,
+        "lcdm_15k_au_v_boost_pct": 0.0
+      },
+      {
+        "zone": "Deep Halo Asymptote (R=11.0 kpc, |z|=6.0 kpc, Future DR5/RV)",
+        "g_obs_mw_mps2": 8.2e-11,
+        "y_n_baryon": 0.2802,
+        "tnap_15k_au_v_boost_pct": 33.28,
+        "lcdm_15k_au_v_boost_pct": 0.0
+      }
+    ],
+    "locked_quality_cuts": {
+      "min_parallax_over_error": 20.0,
+      "max_ruwe": 1.2,
+      "require_nss_zero": true,
+      "calibration_sep_au": [
+        500.0,
+        2000.0
+      ],
+      "wide_test_sep_au": [
+        10000.0,
+        22000.0
+      ],
+      "local_backyard_max_dist_pc": 300.0,
+      "environment_max_dist_pc": 2200.0
+    }
+  },
+  "bhex_photon_ring_predictions": {
+    "optical_metric_n": "exp(2 * U)",
+    "lapse_A": "exp(-2 * U)",
+    "ppn_1pn_gamma": 1.0,
+    "ppn_1pn_beta": 1.0,
+    "gr_schwarzschild_shadow_rg": 5.196152,
+    "gr_strict_all_spin_upper_ceiling_rg": 5.196152,
+    "tnap_non_spinning_shadow_rg": 5.436564,
+    "tnap_vs_gr_fractional_excess_pct": 4.6267,
+    "sgr_a_star_inclination_note": "GRAVITY + EHT constrain Sgr A* mass-to-distance M/D via S2 stellar orbit to <0.4%, making Sgr A* + M87* decisive <=1% BHEX tests.",
+    "kerr_spin_table": [
+      {
+        "spin_a_star": 0.0,
+        "gr_mean_radius_edge_on_rg": 5.1962,
+        "gr_mean_radius_face_on_rg": 5.1962,
+        "tnap_weave_edge_on_rg": 5.4366,
+        "tnap_weave_face_on_rg": 5.4366
+      },
+      {
+        "spin_a_star": 0.3,
+        "gr_mean_radius_edge_on_rg": 5.1873,
+        "gr_mean_radius_face_on_rg": 5.1697,
+        "tnap_weave_edge_on_rg": 5.4273,
+        "tnap_weave_face_on_rg": 5.4089
+      },
+      {
+        "spin_a_star": 0.5,
+        "gr_mean_radius_edge_on_rg": 5.1706,
+        "gr_mean_radius_face_on_rg": 5.1205,
+        "tnap_weave_edge_on_rg": 5.4099,
+        "tnap_weave_face_on_rg": 5.3574
+      },
+      {
+        "spin_a_star": 0.7,
+        "gr_mean_radius_edge_on_rg": 5.143,
+        "gr_mean_radius_face_on_rg": 5.0401,
+        "tnap_weave_edge_on_rg": 5.381,
+        "tnap_weave_face_on_rg": 5.2733
+      },
+      {
+        "spin_a_star": 0.9,
+        "gr_mean_radius_edge_on_rg": 5.0981,
+        "gr_mean_radius_face_on_rg": 4.9161,
+        "tnap_weave_edge_on_rg": 5.3339,
+        "tnap_weave_face_on_rg": 5.1435
+      },
+      {
+        "spin_a_star": 0.94,
+        "gr_mean_radius_edge_on_rg": 5.0853,
+        "gr_mean_radius_face_on_rg": 4.8837,
+        "tnap_weave_edge_on_rg": 5.3206,
+        "tnap_weave_face_on_rg": 5.1097
+      },
+      {
+        "spin_a_star": 0.998,
+        "gr_mean_radius_edge_on_rg": 5.0614,
+        "gr_mean_radius_face_on_rg": 4.8304,
+        "tnap_weave_edge_on_rg": 5.2956,
+        "tnap_weave_face_on_rg": 5.0539
+      }
+    ]
+  },
+  "sha256_canonical_payload": "fa1f5cc50885f1de71fde71201a9320d6c071e44c586708207fb8fc3fe471328"
+}

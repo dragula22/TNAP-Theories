@@ -1,0 +1,39 @@
+{
+  "title": "Pre-Registered Blind Predictions Ahead of ESA Gaia DR4 (Dec 2026) & BHEX: Zero-Knob 3D QUMOND Wide-Binary Gradient, Galactic Compass Anisotropy, and +4.63% Photon-Ring Shadow (TNAP-Theories v1.0)",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-11-03",
+  "creators": [
+    {
+      "name": "Stoler, David",
+      "affiliation": "Theoretically Not A Physicist (@TNaPhysicist) — stoler.systems"
+    }
+  ],
+  "description": "<p><strong>Official Pre-Registered Blind Falsification Forecast (Timestamped Prior to ESA Gaia Data Release 4 on December 2, 2026)</strong></p><p>This archive locks zero-free-parameter observational predictions and deterministic open-source verification scripts from the exploratory <em>Spacetime Weave</em> framework (<em>Theoretically Not A Physicist</em> / <code>TNAP-Theories</code>) ahead of ESA's 66-month <strong>Gaia Data Release 4 (DR4)</strong> and the <strong>Black Hole Explorer (BHEX)</strong> space-VLBI mission:</p><ul><li><strong>Zero-Knob Horizon Scale:</strong> <code>a_0 = c * H_0 / (sqrt(3) * pi) = 1.2027e-10 m/s^2</code> with Bose–Einstein / classical wave-Unruh response <code>nu(y) = 1 / (1 - exp(-sqrt(y)))</code> solved via exact 3D conservative curl-free two-body QUMOND (<code>nabla^2 Phi_eff = -nabla . [nu(|g_N|/a_0) g_N]</code>).</li><li><strong>Gaia DR4 Wide-Binary Falsification Suite:</strong> Pre-registers (1) the Solar-neighborhood separation curve from <code>1,000 AU</code> (<code>0.0%</code>) across the <code>7,006 AU</code> screening knee to <code>15,000–20,000 AU</code>; (2) the local <code>d &lt; 300 pc</code> Galactic Center–Anticenter compass anisotropy split; and (3) the reachable <code>d &lt;= 2.2 kpc</code> Galactocentric environment step from Inner Disk to Outer Thick Disk / Lower Halo, with locked <code>RUWE &lt;= 1.20</code>, <code>parallax_over_error &gt;= 20</code>, and <code>NSS == 0</code> quality cuts.</li><li><strong>BHEX Strong-Field Photon-Ring Test:</strong> Pre-registers the 2PN shadow radius <code>R_sh = 2 * e * r_g = 5.4366 r_g</code> from the exponential optical weave metric <code>n(U) = exp(2U)</code>, <code>A(U) = exp(-2U)</code>—<code>+4.63%</code> wider than Schwarzschild General Relativity (<code>3*sqrt(3) r_g = 5.1962 r_g</code>) and strictly above General Relativity's all-spin upper ceiling.</li><li><strong>Epistemic Transparency:</strong> Openly documents both verified simulation benchmarks and remaining unsolved theoretical hurdles (micro-to-macro two-knot gravity emergence and full covariant CMB polarization evolution).</li></ul>",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Gaia DR4",
+    "wide binaries",
+    "External Field Effect",
+    "QUMOND",
+    "Black Hole Explorer",
+    "BHEX",
+    "black hole shadow",
+    "modified gravity",
+    "Faddeev-Niemi hopfions",
+    "blind pre-registration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dragula22/TNAP-Theories",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://stoler.systems",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -63,6 +63,14 @@
      - A naive constant-3D-volume yarn ball ($\rho = \text{const}$) would scale as $R \propto M^{1/3}$, contradicting Einstein's $R_s \propto M$.
      - **However**, in General Relativity and our weave, fundamental tension is bounded by the **Planck Tension** $T_P = \frac{c^4}{4G} = 3.026 \times 10^{43}\text{ N}$ (*Gibbons 2002 Maximum Tension Principle*). Winding radial Planck-tension strands across diameter $L = 2R$ stores energy $E = T_P (2R) = \frac{c^4}{2G}R = M c^2$, which locks the sphere's outer radius identically to **$R = \frac{2GM}{c^2} = R_{\text{Schwarzschild}}$** ($\rho(r) = \frac{c^2}{8\pi G r^2}$, zero infinite $r=0$ point singularity, paralleling **Mathur's Fuzzballs** and **Dvali's Black-Hole Quantum $N$-Portrait**), while the number of Planck-width wraps on the outer shell equals **$N = \frac{4\pi R_s^2}{4\ell_P^2} = S_{\text{BH}}$** (1 bit of horizon memory per 4 Planck squares)!
 
+### Discovery #5 — 3D Variational Skyrme–Faddeev Knots, `1.06 Gyr` 3D QUMOND Galaxies & Pre-Registered `Gaia DR4` / `BHEX` Blind Forecast (Nov 3, 2026)
+- **3D Physics Crucible (`WeaveForge` Audit):**
+  - Moving from 1D/2D proxies into full 3D time evolution forced two major mathematical sharpenings via **Marsden–West discrete variational symmetry** (digital Newton's 3rd Law):
+    1. **Matter Knots Need Unit-Sphere Faddeev–Niemi / Skyrme Twist Stiffness:** Pure scalar Q-balls act like liquid droplets whose strands merge and untie in 3D; adding unit-sphere-projected Skyrme stiffness (`k_skyrme = 1.55`) locked 3D Trefoil (`Q_H = +7`), 3-Ribbon `Z_3` Koide Braid (`Q_H = +9`), and Orthogonal Linked Hopfion Rings (`Q_H = -6`) for `7,200` undamped steps while standard linear `Lambda-CDM` (`k_S = 0`) dispersed `> 97%` into empty space.
+    2. **Galaxies Need Conservative 3D Curl-Free QUMOND (`curl = 3.57e-8`):** Non-conservative `g_N * nu` leaked fake torque on tilted 3D orbits; solving 2-stage 6-face finite-volume QUMOND with logarithmic outer wall potentials held `100.0%` of `1,000,000` stars bound across `1.06 billion years` (`+4.8%` `NGC 3198` drift vs `+5.3%` in live 3D NFW `Lambda-CDM`, while `Red-Team Baryon-Only` exploded `+377.5%`).
+- **Pre-Registered Blind Predictions Locked 29 Days Ahead of ESA `Gaia DR4` (`predictions_2026_blind/`):**
+  - Calibrating the Milky Way's Newtonian field self-consistently from `GRAVITY + McMillan (2017)` ($y_{N,\odot} = 1.1843$) inside a self-force-free 3D two-body QUMOND solver (`SHA-256: fa1f5cc5...`) locked three day-one `Gaia DR4` falsification tests (`+16.14%` local `15,000 AU` plateau, `+1.71%` Galactic Center compass split inside `d <= 300 pc`, and `+12.16% -> +20.98% -> +25.64%` environment step within `d <= 2.5 kpc` where bright subgiants/giants maintain `SNR >= 3.5`), alongside the spin-proof `+4.63%` `BHEX` photon-ring excess (`5.4366 r_g` vs GR's all-spin ceiling `5.1962 r_g`).
+
 ---
 
 ## 2. Chapter-by-Chapter Episode Tracker
