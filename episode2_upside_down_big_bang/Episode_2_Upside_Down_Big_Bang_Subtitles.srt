@@ -1,0 +1,1443 @@
+1
+00:00:03,850 --> 00:00:05,179
+Welcome back everyone.
+
+2
+00:00:05,900 --> 00:00:08,580
+My name is David and
+this is Theoretically Not
+
+3
+00:00:08,620 --> 00:00:09,460
+A Physicist.
+
+4
+00:00:11,100 --> 00:00:14,840
+Since Episode 1, where we put
+frozen 4-dimensional time,
+
+5
+00:00:15,200 --> 00:00:16,040
+human memory,
+
+6
+00:00:16,700 --> 00:00:20,140
+GPS satellite clocks, and
+spinning black hole horizons under
+
+7
+00:00:20,180 --> 00:00:20,960
+the microscope,
+
+8
+00:00:21,580 --> 00:00:24,620
+we have hit two big
+milestones behind the scenes.
+
+9
+00:00:25,400 --> 00:00:29,160
+First off, we built an open
+source 3-dimensional physics
+
+10
+00:00:29,200 --> 00:00:33,100
+engine called WeaveForge, so
+we can actually throw knots,
+
+11
+00:00:33,360 --> 00:00:37,220
+galaxies, and cosmic membranes
+into a virtual box and
+
+12
+00:00:37,260 --> 00:00:39,300
+watch where our equations hold up,
+
+13
+00:00:39,420 --> 00:00:40,120
+or break.
+
+14
+00:00:41,628 --> 00:00:42,355
+Second,
+
+15
+00:00:43,055 --> 00:00:45,895
+ahead of the European Space
+Agency opening the vault
+
+16
+00:00:45,935 --> 00:00:49,115
+on Gaia data release 4
+next month on December
+
+17
+00:00:49,155 --> 00:00:55,135
+2nd, we just locked an official
+time-stamped CERN Zenodo
+
+18
+00:00:55,175 --> 00:00:56,715
+prediction in stone.
+
+19
+00:00:57,715 --> 00:01:02,275
+With zero free-tuning knobs, we
+published exact orbital speed
+
+20
+00:01:02,315 --> 00:01:05,315
+boosts for wide twin
+stars across the Milky Way
+
+21
+00:01:05,355 --> 00:01:09,835
+disk and halo, plus a
+4.63% wider black hole
+
+22
+00:01:09,875 --> 00:01:10,795
+shadow test.
+
+23
+00:01:11,935 --> 00:01:14,035
+If December's star data disagrees,
+
+24
+00:01:14,955 --> 00:01:17,515
+our galactic rule is
+falsified on the spot.
+
+25
+00:01:19,104 --> 00:01:22,114
+With those blind predictions
+locked in the vault,
+
+26
+00:01:22,674 --> 00:01:26,414
+today, in episode 2, we
+are traveling all the
+
+27
+00:01:26,454 --> 00:01:29,154
+way to the narrow waist
+of the cosmic hourglass
+
+28
+00:01:29,194 --> 00:01:32,054
+to test pillar 3 of our model:
+
+29
+00:01:32,714 --> 00:01:34,394
+the upside down Big Bang,
+
+30
+00:01:35,054 --> 00:01:37,634
+why the oldest light in the night sky is
+
+31
+00:01:37,674 --> 00:01:40,174
+mysteriously quiet on giant scales,
+
+32
+00:01:40,794 --> 00:01:44,474
+and where all the universe's
+missing antimatter went.
+
+33
+00:01:46,019 --> 00:01:47,560
+And just like episode 1,
+
+34
+00:01:48,220 --> 00:01:50,720
+we're going to throw three
+heavy bricks straight at
+
+35
+00:01:50,760 --> 00:01:53,080
+our own idea. First:
+
+36
+00:01:53,940 --> 00:01:56,760
+isn't flipping the cosmic
+arrow of entropy just a
+
+37
+00:01:56,800 --> 00:01:58,740
+cheap video game cheat code?
+
+38
+00:01:59,460 --> 00:02:00,320
+Second:
+
+39
+00:02:01,140 --> 00:02:04,840
+didn't Stanford's BABAR particle
+collider already prove at
+
+40
+00:02:04,880 --> 00:02:08,620
+14 sigma that subatomic physics
+runs differently forward
+
+41
+00:02:08,660 --> 00:02:09,780
+and backward in time?
+
+42
+00:02:10,473 --> 00:02:11,533
+And third:
+
+43
+00:02:12,093 --> 00:02:15,093
+how could a universe without
+dark matter particles possibly
+
+44
+00:02:15,133 --> 00:02:18,693
+survive the famous third peak in
+the cosmic microwave background?
+
+45
+00:02:19,613 --> 00:02:20,453
+Let's dive in.
+
+46
+00:02:23,251 --> 00:02:26,294
+Let's start with a riddle
+that has haunted cosmology
+
+47
+00:02:26,334 --> 00:02:27,474
+for half a century.
+
+48
+00:02:28,594 --> 00:02:31,594
+In everyday life, the second
+law of thermodynamics feels
+
+49
+00:02:31,634 --> 00:02:32,774
+like common sense:
+
+50
+00:02:33,454 --> 00:02:35,514
+Left alone, ice cubes melt,
+
+51
+00:02:35,994 --> 00:02:37,634
+cream mixes into hot coffee,
+
+52
+00:02:38,194 --> 00:02:40,014
+and tidy rooms get messier.
+
+53
+00:02:40,734 --> 00:02:43,394
+Disorder, what physicists call entropy,
+
+54
+00:02:43,454 --> 00:02:44,374
+goes up.
+
+55
+00:02:44,994 --> 00:02:46,674
+That sounds completely harmless.
+
+56
+00:02:47,374 --> 00:02:51,514
+Until you rewind the cosmic
+movie 13.8 billion years
+
+57
+00:02:51,554 --> 00:02:52,654
+back to the Big Bang.
+
+58
+00:02:54,215 --> 00:02:58,468
+If disorder has been climbing
+for nearly 14 billion years,
+
+59
+00:02:59,188 --> 00:03:01,448
+then the baby universe had to start in a
+
+60
+00:03:01,488 --> 00:03:04,928
+state of almost unimaginable
+gravitational smoothness.
+
+61
+00:03:05,968 --> 00:03:06,588
+How smooth?
+
+62
+00:03:07,668 --> 00:03:11,648
+Back in 1979, Nobel
+laureate Sir Roger Penrose
+
+63
+00:03:12,048 --> 00:03:14,828
+calculated the odds of
+getting our smooth Big Bang
+
+64
+00:03:14,868 --> 00:03:18,368
+by pure chance out of
+every lumpy black hole
+
+65
+00:03:18,408 --> 00:03:20,568
+mess that same energy could have formed.
+
+66
+00:03:21,167 --> 00:03:25,149
+The odds are 1 in 10 raised to the
+
+67
+00:03:25,189 --> 00:03:27,929
+power of 10 to the 123rd.
+
+68
+00:03:29,600 --> 00:03:33,132
+Even cosmic inflation
+doesn't erase that riddle.
+
+69
+00:03:33,867 --> 00:03:36,427
+It has to assume the
+tiny patch that inflated
+
+70
+00:03:36,467 --> 00:03:39,487
+started extraordinarily
+smooth in the first place.
+
+71
+00:03:40,487 --> 00:03:42,247
+So, in our thought experiment,
+
+72
+00:03:42,627 --> 00:03:45,007
+we turned the hourglass upside down.
+
+73
+00:03:45,487 --> 00:03:48,807
+What if the universe
+didn't begin at the smooth
+
+74
+00:03:48,847 --> 00:03:50,207
+narrow end at all?
+
+75
+00:03:50,807 --> 00:03:54,327
+What if messy tangled chaos out on a wide
+
+76
+00:03:54,367 --> 00:03:58,847
+outer rim is the natural
+zero fine-tuning boundary and
+
+77
+00:03:58,887 --> 00:04:02,107
+the Big Bang is a narrow
+topological drain at
+
+78
+00:04:02,147 --> 00:04:05,307
+the center where four-dimensional
+fabric wrinkles get pulled
+
+79
+00:04:05,347 --> 00:04:06,567
+flat and smooth?
+
+80
+00:04:08,061 --> 00:04:11,779
+Now hold on, if the mathematical
+smoothing runs inward
+
+81
+00:04:11,819 --> 00:04:13,839
+toward the Big Bang waist,
+
+82
+00:04:14,819 --> 00:04:17,279
+why don't we see shattered
+teacups leap off the
+
+83
+00:04:17,319 --> 00:04:18,079
+kitchen floor?
+
+84
+00:04:19,059 --> 00:04:21,899
+Remember what we proved
+in Episode 1 with Rolf
+
+85
+00:04:21,939 --> 00:04:23,359
+Landauer's Law of Memory:
+
+86
+00:04:23,779 --> 00:04:27,099
+a physical brain can only
+write new memories in
+
+87
+00:04:27,139 --> 00:04:29,979
+the direction where heat
+and disorder increase.
+
+88
+00:04:30,659 --> 00:04:35,319
+So any living observer woven
+inside that timeless tapestry
+
+89
+00:04:35,359 --> 00:04:39,719
+automatically remembers the
+smooth Big Bang waist as the
+
+90
+00:04:39,759 --> 00:04:42,999
+distant past, and experiences the wider,
+
+91
+00:04:43,179 --> 00:04:45,619
+messier weave as the future.
+
+92
+00:04:48,627 --> 00:04:51,016
+When we first wrote that down,
+
+93
+00:04:51,482 --> 00:04:54,043
+I stopped the whole
+session and asked the AI
+
+94
+00:04:54,083 --> 00:04:55,632
+team a blunt question:
+
+95
+00:04:57,074 --> 00:04:57,951
+Wait a second,
+
+96
+00:04:58,656 --> 00:05:01,997
+isn't flipping plus T to minus T on a
+
+97
+00:05:02,037 --> 00:05:05,211
+blackboard the ultimate
+physics cheat code?
+
+98
+00:05:06,047 --> 00:05:08,738
+Like typing up up down down left right BA
+
+99
+00:05:08,778 --> 00:05:10,717
+on an old Nintendo controller,
+
+100
+00:05:11,444 --> 00:05:14,524
+just swapping the words start
+and finish without explaining
+
+101
+00:05:14,564 --> 00:05:16,633
+a single piece of the physics?
+
+102
+00:05:18,402 --> 00:05:20,264
+When we ran the information math,
+
+103
+00:05:20,784 --> 00:05:23,060
+the answer was: yes.
+
+104
+00:05:24,120 --> 00:05:27,580
+If you only specify
+one boundary and play a
+
+105
+00:05:27,620 --> 00:05:28,560
+movie in reverse,
+
+106
+00:05:29,560 --> 00:05:32,940
+it is a 100% fake cheat code.
+
+107
+00:05:34,080 --> 00:05:37,560
+To make scattered ocean
+waves converge onto one tiny
+
+108
+00:05:37,600 --> 00:05:41,840
+central spot by luck, you'd
+have to secretly hand-tune
+
+109
+00:05:41,880 --> 00:05:46,640
+4.7 x 10 to the 122 bits of hidden
+
+110
+00:05:46,680 --> 00:05:48,280
+wave phases out on the rim.
+
+111
+00:05:49,520 --> 00:05:51,400
+You haven't solved Penrose's miracle.
+
+112
+00:05:52,220 --> 00:05:54,380
+You just hid it underneath the rug.
+
+113
+00:05:55,881 --> 00:05:59,310
+Everything changes, though,
+when a physical sheet is clamped
+
+114
+00:05:59,350 --> 00:06:02,010
+at both ends, like dipping a wide,
+
+115
+00:06:02,190 --> 00:06:04,510
+noisy brass hoop and a tiny,
+
+116
+00:06:04,790 --> 00:06:07,030
+smooth central ring into soapy water.
+
+117
+00:06:07,810 --> 00:06:10,390
+You don't hand-tune a
+single soap molecule on the
+
+118
+00:06:10,430 --> 00:06:11,030
+outer hoop.
+
+119
+00:06:11,732 --> 00:06:15,392
+Tension across the whole
+four-dimensional weave automatically
+
+120
+00:06:15,432 --> 00:06:17,572
+pulls the film into a smooth,
+
+121
+00:06:17,912 --> 00:06:22,532
+curved hourglass neck, a shape
+mathematicians call a catenoid,
+
+122
+00:06:22,892 --> 00:06:23,792
+all on its own.
+
+123
+00:06:25,318 --> 00:06:28,620
+Better yet, a two-ring
+soap film makes a concrete
+
+124
+00:06:28,660 --> 00:06:31,580
+telescope prediction that a
+rewound movie never could.
+
+125
+00:06:32,800 --> 00:06:35,500
+Because every standing
+wave on the fabric has to
+
+126
+00:06:35,540 --> 00:06:38,820
+physically fit between the
+outer boundary and that narrow
+
+127
+00:06:38,860 --> 00:06:39,920
+central waist,
+
+128
+00:06:40,700 --> 00:06:44,100
+super wide ripples, waves
+wider than the waist itself,
+
+129
+00:06:44,640 --> 00:06:45,720
+get squeezed down.
+
+130
+00:06:46,660 --> 00:06:49,900
+If our universe really is a
+two-boundary hourglass weave,
+
+131
+00:06:49,940 --> 00:06:53,560
+the largest temperature ripples
+across the entire night sky
+
+132
+00:06:53,600 --> 00:06:55,820
+have to be unusually quiet.
+
+133
+00:06:58,853 --> 00:07:01,266
+So let's look up at
+the real sky and check.
+
+134
+00:07:02,226 --> 00:07:03,686
+For more than 30 years,
+
+135
+00:07:04,026 --> 00:07:06,286
+starting with NASA's COBE satellite,
+
+136
+00:07:06,906 --> 00:07:07,846
+then WMAP,
+
+137
+00:07:08,446 --> 00:07:12,626
+and finally the European Space
+Agency's Planck Space Observatory,
+
+138
+00:07:13,506 --> 00:07:16,526
+astronomers have mapped the
+cosmic microwave background,
+
+139
+00:07:17,226 --> 00:07:19,606
+the faint fossil glow
+left over from the hot
+
+140
+00:07:19,646 --> 00:07:20,666
+early universe.
+
+141
+00:07:21,626 --> 00:07:24,186
+Across small and medium
+patches of the sky,
+
+142
+00:07:24,826 --> 00:07:28,686
+textbook cosmology matches those
+ripples with breathtaking precision.
+
+143
+00:07:30,238 --> 00:07:33,084
+Yet, on the single widest scale,
+
+144
+00:07:33,504 --> 00:07:35,145
+spanning the entire heavens,
+
+145
+00:07:35,825 --> 00:07:40,085
+a giant four-lobed wave
+called the quadrupole,
+
+146
+00:07:41,044 --> 00:07:44,625
+all three space missions
+saw something eerie.
+
+147
+00:07:45,985 --> 00:07:50,285
+Standard Lambda CDM expects
+that giant sky wave to
+
+148
+00:07:50,325 --> 00:07:55,555
+ring at nearly 1100
+microkelvin squared. Instead,
+
+149
+00:07:56,336 --> 00:08:01,916
+Planck measured it down around
+230 to 330 microkelvin squared,
+
+150
+00:08:02,715 --> 00:08:05,176
+more than three times
+quieter than expected.
+
+151
+00:08:06,820 --> 00:08:08,706
+In textbook cosmology,
+
+152
+00:08:09,326 --> 00:08:12,126
+that missing power is
+usually shrugged off as a
+
+153
+00:08:12,166 --> 00:08:16,086
+fluke, rolling an unlucky
+cosmic die because we only
+
+154
+00:08:16,126 --> 00:08:17,626
+have one universe to measure.
+
+155
+00:08:18,646 --> 00:08:21,586
+When we clamped our
+hourglass waist at the cosmic
+
+156
+00:08:21,626 --> 00:08:23,206
+horizon scale in Python,
+
+157
+00:08:23,886 --> 00:08:29,246
+every smaller ripple across the
+sky stayed 99.95% untouched,
+
+158
+00:08:29,566 --> 00:08:34,686
+while the giant quadrupole dropped
+automatically to 334 microkelvin
+
+159
+00:08:34,726 --> 00:08:38,046
+squared, landing right
+inside Planck's quiet sky.
+
+160
+00:08:39,808 --> 00:08:45,140
+And here's where our 2.2
+million paper Lacuna discovery
+
+161
+00:08:45,180 --> 00:08:47,040
+engine gave us chills.
+
+162
+00:08:47,940 --> 00:08:52,920
+It uncovered two peer-reviewed
+Physical Review D papers from
+
+163
+00:08:52,960 --> 00:08:58,720
+2024 and 2025 by Wei-Ning
+Deng and Will Handley
+
+164
+00:08:58,760 --> 00:09:02,360
+at Cambridge University building
+on earlier mirror universe
+
+165
+00:09:02,400 --> 00:09:05,360
+work by Neil Turok, Latham Boyle,
+
+166
+00:09:05,800 --> 00:09:06,720
+and Kieran Finn.
+
+167
+00:09:07,560 --> 00:09:10,220
+Independently, in quantum cosmology,
+
+168
+00:09:10,860 --> 00:09:14,280
+they prove that symmetric
+boundary conditions across the
+
+169
+00:09:14,320 --> 00:09:18,880
+Big Bang force spatial curvature
+into quantized steps and
+
+170
+00:09:18,920 --> 00:09:22,340
+naturally suppress those
+exact giant sky waves.
+
+171
+00:09:25,415 --> 00:09:28,887
+Passing that quiet sky check felt amazing,
+
+172
+00:09:29,327 --> 00:09:32,927
+for about 10 minutes,
+until we threw brick number
+
+173
+00:09:32,967 --> 00:09:35,087
+two straight at our own windshield.
+
+174
+00:09:36,187 --> 00:09:40,487
+If our upside-down hourglass
+simply reversed time by itself
+
+175
+00:09:40,527 --> 00:09:42,587
+as it narrowed into the Big Bang,
+
+176
+00:09:43,187 --> 00:09:46,247
+there is an absolute deal-breaker
+waiting inside particle
+
+177
+00:09:46,287 --> 00:09:47,767
+accelerators here on Earth:
+
+178
+00:09:48,527 --> 00:09:52,327
+Nature does not run identically
+forward and backward when
+
+179
+00:09:52,367 --> 00:09:53,847
+you only flip time.
+
+180
+00:09:55,387 --> 00:09:59,775
+In 2012, physicists at Stanford's
+SLAC National Accelerator
+
+181
+00:09:59,815 --> 00:10:04,555
+Laboratory used the BABAR detector
+to watch entangled subatomic
+
+182
+00:10:04,595 --> 00:10:08,495
+particles called B mesons
+flip back and forth between
+
+183
+00:10:08,535 --> 00:10:09,855
+two quantum states.
+
+184
+00:10:10,795 --> 00:10:13,335
+Flipping from state A to state B did not
+
+185
+00:10:13,375 --> 00:10:15,495
+happen at the same speed
+as flipping from state
+
+186
+00:10:15,535 --> 00:10:17,095
+B back to state A,
+
+187
+00:10:17,135 --> 00:10:20,875
+proving microscopic time
+reversal violation at more than
+
+188
+00:10:20,915 --> 00:10:22,115
+14 sigma.
+
+189
+00:10:22,975 --> 00:10:24,895
+5 sigma wins a Nobel Prize.
+
+190
+00:10:25,604 --> 00:10:29,484
+14 sigma means naive time
+reversal alone is dead
+
+191
+00:10:29,524 --> 00:10:30,164
+on arrival.
+
+192
+00:10:31,922 --> 00:10:35,722
+So how can a symmetric Big
+Bang throat survive BABAR?
+
+193
+00:10:36,743 --> 00:10:39,282
+Through one of the bedrock
+theorems of modern physics,
+
+194
+00:10:39,362 --> 00:10:41,963
+proved in the 1950s by Gerhart Lüders,
+
+195
+00:10:42,403 --> 00:10:44,762
+Wolfgang Pauli, and Julian Schwinger:
+
+196
+00:10:45,562 --> 00:10:46,902
+CPT symmetry.
+
+197
+00:10:47,922 --> 00:10:50,082
+Nature breaks time reversal, T,
+
+198
+00:10:50,122 --> 00:10:52,842
+on its own, and it
+breaks mirror reflection,
+
+199
+00:10:53,183 --> 00:10:56,222
+P, and matter-antimatter swap, C.
+
+200
+00:10:57,062 --> 00:10:58,482
+But when you flip charge,
+
+201
+00:10:58,702 --> 00:11:02,442
+parity, and time altogether,
+every single law of particle
+
+202
+00:11:02,482 --> 00:11:04,603
+physics stays 100% exact.
+
+203
+00:11:06,262 --> 00:11:09,248
+Look at what that forces
+our cosmic hourglass to
+
+204
+00:11:09,288 --> 00:11:13,748
+look like, connecting directly
+to Julian Barbour's gravitational
+
+205
+00:11:13,788 --> 00:11:18,808
+Janus point and Turok Boyle
+and Finn's CPT universe.
+
+206
+00:11:20,228 --> 00:11:22,168
+Instead of ending at a sharp wall,
+
+207
+00:11:22,888 --> 00:11:26,028
+the narrow Big Bang neck
+joins two wings back
+
+208
+00:11:26,068 --> 00:11:27,128
+to back.
+
+209
+00:11:27,908 --> 00:11:29,748
+Right at that smooth waist,
+
+210
+00:11:30,528 --> 00:11:33,488
+mirror symmetry forces
+cosmic shear to zero,
+
+211
+00:11:33,528 --> 00:11:39,168
+instantly defusing a 230 sigma
+Big Bang helium-4 explosion
+
+212
+00:11:39,208 --> 00:11:42,848
+that nearly wrecked an
+earlier draft of our math.
+
+213
+00:11:44,396 --> 00:11:48,820
+And then, an unexpected prize
+drops right into our lap.
+
+214
+00:11:49,760 --> 00:11:51,260
+Back in 1967,
+
+215
+00:11:51,820 --> 00:11:55,580
+physicist Andrei Sakharov laid
+out one of science's biggest
+
+216
+00:11:55,620 --> 00:12:00,380
+mysteries: If energy turns
+into matter and antimatter in
+
+217
+00:12:00,420 --> 00:12:01,360
+equal pairs,
+
+218
+00:12:02,060 --> 00:12:05,540
+why didn't the young universe
+annihilate completely into
+
+219
+00:12:05,580 --> 00:12:06,240
+pure light?
+
+220
+00:12:07,460 --> 00:12:11,080
+Today, for every 10
+billion photons in space,
+
+221
+00:12:11,120 --> 00:12:15,960
+our cosmos has about six
+leftover protons and virtually
+
+222
+00:12:16,000 --> 00:12:17,580
+zero antiprotons.
+
+223
+00:12:18,300 --> 00:12:20,480
+Where did all of the antimatter go?
+
+224
+00:12:22,234 --> 00:12:25,086
+Across a two-wing CPT hourglass,
+
+225
+00:12:25,906 --> 00:12:29,206
+the Big Bang waist itself
+carries exact zero net
+
+226
+00:12:29,246 --> 00:12:30,246
+matter charge.
+
+227
+00:12:30,966 --> 00:12:33,186
+Nothing lopsided had to
+appear out of nothing.
+
+228
+00:12:34,226 --> 00:12:39,226
+Instead, that exact BABAR
+time and charge asymmetry acts
+
+229
+00:12:39,266 --> 00:12:41,626
+like a subatomic coin sorter at the pinch:
+
+230
+00:12:42,146 --> 00:12:45,886
+sorting 6 protons per 10
+billion photons onto our wing,
+
+231
+00:12:46,426 --> 00:12:49,666
+and 6 antiprotons per 10
+billion photons onto our
+
+232
+00:12:49,706 --> 00:12:50,726
+twin mirror wing.
+
+233
+00:12:51,386 --> 00:12:55,466
+Even better, clamping both
+boundaries keeps Stephen Hawking's
+
+234
+00:12:55,506 --> 00:12:58,666
+black hole radiation
+curve completely unitary,
+
+235
+00:12:58,886 --> 00:13:02,646
+recovering 100% of quantum
+information with zero lost bits.
+
+236
+00:13:05,753 --> 00:13:08,117
+Now, you know our rule on this channel:
+
+237
+00:13:08,571 --> 00:13:11,168
+We never show where a model
+shines without showing
+
+238
+00:13:11,208 --> 00:13:12,535
+where the math sweats.
+
+239
+00:13:13,472 --> 00:13:16,838
+And the biggest historical
+graveyard for every theory without
+
+240
+00:13:16,878 --> 00:13:21,102
+dark matter particles sits
+right inside that exact Planck
+
+241
+00:13:21,142 --> 00:13:22,601
+map of the early sky,
+
+242
+00:13:23,076 --> 00:13:26,073
+at a landmark called
+the Third Acoustic Peak.
+
+243
+00:13:27,633 --> 00:13:32,358
+Before atoms formed, hot
+protons and electrons fell into
+
+244
+00:13:32,398 --> 00:13:33,338
+gravity bowls,
+
+245
+00:13:33,978 --> 00:13:35,678
+compressed like a drum head,
+
+246
+00:13:36,358 --> 00:13:39,618
+and bounced back out under
+fierce photon pressure.
+
+247
+00:13:40,818 --> 00:13:43,058
+Cold, dark matter ignores light,
+
+248
+00:13:43,478 --> 00:13:45,378
+sitting quietly in each bowl,
+
+249
+00:13:45,938 --> 00:13:49,818
+so Planck's third sound
+peak stays nearly as tall
+
+250
+00:13:49,858 --> 00:13:52,398
+as the second, at 0.72.
+
+251
+00:13:53,098 --> 00:13:56,198
+When we first ran
+memoryless fabric gravity,
+
+252
+00:13:56,818 --> 00:13:58,558
+the bowls emptied during the bounce,
+
+253
+00:13:59,178 --> 00:14:02,338
+and our third peak crashed to 0.16.
+
+254
+00:14:04,103 --> 00:14:07,137
+That failure forced us
+to look closer at the
+
+255
+00:14:07,177 --> 00:14:08,937
+three-dimensional weave itself.
+
+256
+00:14:10,057 --> 00:14:11,717
+Just like you can fold a wrinkle,
+
+257
+00:14:12,217 --> 00:14:15,457
+a pleat, into a taut
+tablecloth without tying a
+
+258
+00:14:15,497 --> 00:14:16,797
+knot in a single thread,
+
+259
+00:14:17,697 --> 00:14:21,397
+space itself can hold
+uncharged geometric pleats.
+
+260
+00:14:22,397 --> 00:14:24,997
+Because those pleats have
+zero electric charge,
+
+261
+00:14:25,597 --> 00:14:28,717
+blinding early universe photons
+pass straight through them
+
+262
+00:14:28,757 --> 00:14:30,417
+without pushing them around.
+
+263
+00:14:30,951 --> 00:14:35,371
+It's the famous bullet-cluster
+collision playing out in reverse
+
+264
+00:14:35,411 --> 00:14:37,131
+inside the baby universe.
+
+265
+00:14:38,785 --> 00:14:42,749
+What's even wilder, the hoop
+buckling stiffness of our
+
+266
+00:14:42,789 --> 00:14:47,269
+three-dimensional weave gives
+a pleat-to-knot energy ratio
+
+267
+00:14:47,309 --> 00:14:50,089
+of 5 plus 1 over pi.
+
+268
+00:14:51,029 --> 00:14:56,189
+That lands total effective
+matter density at 0.3094,
+
+269
+00:14:56,769 --> 00:15:02,849
+matching Planck's
+measured 0.3097 to 99.92%,
+
+270
+00:15:02,889 --> 00:15:04,989
+with zero free knobs.
+
+271
+00:15:05,528 --> 00:15:09,008
+And lifting that third
+acoustic peak right back into
+
+272
+00:15:09,048 --> 00:15:12,308
+the 0.66 to 0.72 bullseye.
+
+273
+00:15:13,860 --> 00:15:17,153
+Still, as we flag a bright
+yellow warning badge
+
+274
+00:15:17,193 --> 00:15:18,473
+inside WeaveForge,
+
+275
+00:15:19,133 --> 00:15:22,133
+treating three-dimensional
+pleats as a smooth background
+
+276
+00:15:22,173 --> 00:15:23,973
+fluid is an approximation.
+
+277
+00:15:25,053 --> 00:15:29,073
+Evolving full pleat shear across
+all 2,500 polarization peaks
+
+278
+00:15:29,113 --> 00:15:30,813
+is still open work.
+
+279
+00:15:31,613 --> 00:15:35,813
+Plus, JAXA's upcoming LiteBIRD
+satellite can sink our narrow
+
+280
+00:15:35,853 --> 00:15:40,356
+waist outright: Our model
+predicts a large angle B-mode
+
+281
+00:15:40,396 --> 00:15:43,196
+ratio of 0.415,
+
+282
+00:15:44,036 --> 00:15:48,416
+whereas a flat plateau
+above 0.85 falsifies it.
+
+283
+00:15:49,771 --> 00:15:52,685
+And here's kill switch number two:
+
+284
+00:15:53,405 --> 00:15:57,265
+An exact two-wing CPT
+pinch across a smooth Big
+
+285
+00:15:57,305 --> 00:16:00,265
+Bang waist predicts that
+the lightest of the three
+
+286
+00:16:00,305 --> 00:16:03,125
+neutrinos has literal zero mass.
+
+287
+00:16:03,965 --> 00:16:06,265
+0.00 electron volts.
+
+288
+00:16:07,645 --> 00:16:11,325
+So if the KATRIN laboratory
+experiment or the Euclid
+
+289
+00:16:11,365 --> 00:16:14,545
+space telescope proves the
+lightest neutrino weighs above
+
+290
+00:16:14,585 --> 00:16:16,985
+two hundredths of an electron volt,
+
+291
+00:16:17,825 --> 00:16:20,705
+our exact two-wing pinch
+goes straight into the trash.
+
+292
+00:16:21,505 --> 00:16:22,665
+No moving goal posts.
+
+293
+00:16:25,785 --> 00:16:29,374
+Every single script and
+simulation from today's episode,
+
+294
+00:16:29,414 --> 00:16:33,874
+from the two-ring catenoid
+sky clamp and BABAR coin
+
+295
+00:16:33,914 --> 00:16:38,874
+sorter, to our pre-registered
+December 2nd Gaia DR4 blind
+
+296
+00:16:38,914 --> 00:16:43,434
+prediction on CERN Zenodo,
+is live right now on
+
+297
+00:16:43,474 --> 00:16:47,154
+stoler.systems and our
+public GitHub repository.
+
+298
+00:16:48,074 --> 00:16:51,774
+You can also open Arena
+4 inside WeaveForge to
+
+299
+00:16:51,814 --> 00:16:55,814
+spin the three-dimensional
+CPT hourglass in real time.
+
+300
+00:16:57,343 --> 00:16:59,818
+Every open yellow badge from today,
+
+301
+00:17:00,320 --> 00:17:04,111
+especially evolving full pleat
+polarization across the whole
+
+302
+00:17:04,151 --> 00:17:08,006
+microwave sky and keeping
+the QCD strong force angle
+
+303
+00:17:08,046 --> 00:17:11,110
+untwisted at the waist,
+is logged on our Recap
+
+304
+00:17:11,150 --> 00:17:12,617
+Video Living Ledger.
+
+305
+00:17:13,461 --> 00:17:15,292
+Once we finish all six chapters,
+
+306
+00:17:15,858 --> 00:17:18,952
+we'll film a dedicated
+recap and update episode,
+
+307
+00:17:19,347 --> 00:17:21,691
+reviewing every equation that held up,
+
+308
+00:17:22,129 --> 00:17:24,936
+anything that broke, and the
+sharpest critiques you leave
+
+309
+00:17:24,976 --> 00:17:26,014
+in the comments below.
+
+310
+00:17:27,666 --> 00:17:31,931
+Next time in episode 3
+we're zooming from the
+
+311
+00:17:31,971 --> 00:17:35,531
+cosmic hourglass right down
+to the quantum lab bench
+
+312
+00:17:35,571 --> 00:17:39,651
+to tackle the strangest
+experiment in all of science:
+
+313
+00:17:40,071 --> 00:17:43,751
+the double slit experiment
+without spooky magic—
+
+314
+00:17:44,331 --> 00:17:47,771
+testing whether two-ended
+standing waves on a taut weave
+
+315
+00:17:47,811 --> 00:17:51,891
+can explain quantum interference
+and entanglement without
+
+316
+00:17:51,931 --> 00:17:53,991
+particles ever splitting in two.
+
+317
+00:17:54,831 --> 00:17:56,711
+Subscribe if you're enjoying the journey,
+
+318
+00:17:57,271 --> 00:18:00,311
+stay inquisitive, and
+I'll see you in chapter 3.

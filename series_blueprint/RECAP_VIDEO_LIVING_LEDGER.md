@@ -74,6 +74,20 @@
 - **Pre-Registered Blind Predictions Locked 29 Days Ahead of ESA `Gaia DR4` (`predictions_2026_blind/`):**
   - Calibrating the Milky Way's Newtonian field self-consistently from `GRAVITY + McMillan (2017)` ($y_{N,\odot} = 1.1843$) inside a self-force-free 3D two-body QUMOND solver (`SHA-256: fa1f5cc5...`) locked three day-one `Gaia DR4` falsification tests (`+16.14%` local `15,000 AU` plateau, `+1.71%` Galactic Center compass split inside `d <= 300 pc`, and `+12.16% -> +20.98% -> +25.64%` environment step within `d <= 2.5 kpc` where bright subgiants/giants maintain `SNR >= 3.5`), alongside the spin-proof `+4.63%` `BHEX` photon-ring excess (`5.4366 r_g` vs GR's all-spin ceiling `5.1962 r_g`).
 
+### Discovery #5B — Unified 3D Two-Knot $1/r^2$ Gravity, Matter–Antimatter Weak Equivalence (`< 1.35%`) & Exponential `exp(2U)` Wave Lensing (`WeaveForge` Step 2, `65/65` Tests)
+- **What Hurdle Was Crossed Off:**
+  - Previously, our #1 open theoretical hurdle in `TNAP-Theories/README.md` was whether two 3D topological knots coupled to a single massless weave-tension field $U(\mathbf{x})$ actually produce $1/r^2$ Newtonian gravity, equal gravitational acceleration for antimatter, and $n(U) = e^{2U}$ optical light-bending **from one unified action** without hand-inserted force laws or optical cheats.
+- **Exact Unified Master Action Verified in 3D (`WeaveForge` Arena 1, `65/65` Automated Tests Passing):**
+  - Coupling the 3D Skyrme–Faddeev knot field directly to the isotropic exponential optical metric $ds^2 = -e^{-2U}c_w^2 dt^2 + e^{+2U} d\mathbf{x}^2$ ($\sqrt{-g} = e^{+2U}$):
+    $$\mathcal{L}_{\text{matter}}(\Psi, U) = e^{+4U} T_{\text{kin}} - c_w^2 G_{\text{grad}} - e^{-2U}\mathcal{L}_{\text{Skyrme}}(\mathbf{n}) - e^{+2U} V(|\Psi|^2), \qquad \nabla^2 U = -\kappa \rho_{H,0}$$
+  - **Four Simultaneous Emergent Results (Zero Hardcoded Force Laws):**
+    1. **Emergent $1/r^2$ Knot–Knot Gravity:** Across separations $s \in \{14, 18, 22, 26\}$, mutual attraction between two 3D Trefoil solitons (`Q_H = +7 / +7` via Manton–Sutcliffe $\pi$-isospin superposition) follows $a(s) \propto 1/s^2$ (`0.985 -> 1.015` normalized $F\cdot s^2$ flatness).
+    2. **Einstein Weak Equivalence Principle (`0.58%–1.31%` Precision):** Reversing one knot's handedness into an antimatter Trefoil (`Q_H = +7 / -7`) preserves identical positive rest energy $\rho_{H,0} > 0$, falling toward matter with the exact same $1/r^2$ acceleration to within `0.58%–1.31%`.
+    3. **Topological Conservation vs. Matter–Antimatter Annihilation:** Under live 3D `G_knot = 0.90` infall, two matter knots (`+7 / +7`) pull together from $s = 5.49 \to 3.11$ while conserving topological baryon/Hopf charge (`Q_H = +12.8`), whereas matter + antimatter (`+7 / -7`) pull together and **annihilate `80.1%–100%` of their knotted core volume** into pure outgoing weave radiation (`Q_H = 0.0`).
+    4. **Automatic $n(U) = e^{2U}$ Wave Lensing & Shapiro Delay:** Because $e^{+4U}T_{\text{kin}} - c_w^2 G_{\text{grad}}$ sets the local phase speed to $v_{\text{phase}} = c_w e^{-2U}$, a passing ripple packet automatically slows down (Shapiro delay) and refracts inward around a heavy knot—requiring zero separate optical post-processing!
+- **Responsible-AI Distinction for the Recap Video:**
+  - This proves **internal mathematical self-consistency** in 3D PDE space (knots *can* generate $1/r^2$ gravity, equivalence, annihilation, and $e^{2U}$ lensing from one equation). Proving **external physical reality** still belongs strictly to real-world instruments (`Gaia DR4` Dec 2, 2026, `BHEX`, `LiteBIRD`, `KATRIN`), while our remaining theoretical boss fights advance to dynamic retarded waves ($\Box U = -\kappa \rho_H$ + spin-2 `+`/`×` polarizations) and 3D Finkelstein–Rubinstein spin-$1/2$ fermion exclusion.
+
 ---
 
 ## 2. Chapter-by-Chapter Episode Tracker
@@ -82,7 +96,7 @@
 | :--- | :--- | :--- | :--- |
 | **Episode 0 (Flagship)** | *The Universe Inside Out — A Visual Guide for Everyone* | Tabs 1–5 (`Plates 1–5`) | **LIVE (`https://youtu.be/Wsj3BCWtPbc`)** |
 | **Episode 1 (Chapter 1)** | *Is Time Even Real? Vinyl Records, Memory & Why GPS Satellites Run Fast* | Tabs 6–7 (`Plates 6–7`: Lacuna Unruh/CMB + GPS/Landauer/BHEX + `1.000000` Spool) | **LIVE (`https://youtu.be/gZXKEAZZLQE`)** |
-| **Episode 2 (Chapter 2)** | *The Upside-Down Big Bang & Where All the Antimatter Went* | Catenoid `334 µK²` Clamp + Deng–Handley Quantized $\Omega_K$ + BABAR $14\sigma$ $CPT$ + `99.92%` 3rd Peak Pleat Rescue | **4K Master Ready (`18:05`)** |
+| **Episode 2 (Chapter 2)** | *The Upside-Down Big Bang & Where All the Antimatter Went* | Catenoid `334 µK²` Clamp + Deng–Handley Quantized $\Omega_K$ + BABAR $14\sigma$ $CPT$ + `99.92%` 3rd Peak Pleat Rescue | **LIVE (`https://youtu.be/cBJzvmWhCgk`)** |
 | **Episode 3 (Chapter 3)** | *The Double-Slit Experiment Without Spooky Magic* | Cirq/qsim/QuTiP Two-Boundary Handshake + $21.76\ \mu\text{g}$ Knee | Planned |
 | **Episode 4 (Chapter 4)** | *Tablecloth Gravity vs. Lambda-CDM: Unmasking Dark Matter & Dark Energy* | SPARC Galaxies + Griniasty Wave Unruh + Gaia DR4 Wide Binaries | Planned |
 | **Episode 5 (Chapter 5)** | *Cosmic Trainwrecks: Bullet Cluster, JWST Early Galaxies & the Hubble Clash* | 2D NLSE Fast vs. Slow Pleat Crash + JWST $z=12$ + KBC Void | Planned |
