@@ -34,7 +34,10 @@
     3. **Two Testable Realizations + Honest Open Hurdle:**
        - **Realization I (`0.55 kpc` Relativistic Klein–Gordon Pleat, $z_{\text{tr}} = 81{,}819$):** Lifts Tab 6.2's `R_32` to **`0.664`** (`~92%` of $\Lambda\text{CDM}$ `0.718`) and predicts a falsifiable early-radiation excess **$\Delta N_{\text{eff}} = +0.259 < 0.30$** testable at $8\sigma$ by **Simons Observatory / CMB-S4**!
        - **Realization II (`Skordis–Złośnik / AeST` Timelike-Slip Dust Mode, $c_s \to 0$):** Lifts `R_32` to **`0.718`** (`~99.9%` of $\Lambda\text{CDM}$) while preserving the Two-Wing Hourglass quadrupole clamping ($334\ \mu\text{K}^2$ vs. Planck $331\ \mu\text{K}^2$).
-       - **Honest Caveat Still Open:** Requires proving strictly from the Two-Wing Big Bang waist boundary condition that knots and pleats emerge together in a purely **adiabatic** mode ($\beta_{\text{iso}} < 0.02$) and running a full `CLASS` `TT+TE+EE+lensing` fit to $\ell = 2500$.
+       - **Honest Caveats & Hard Kill-Switches Logged in Episode 2 (`chunk_26`–`chunk_29`):**
+         1. **`[WARN]` 3D Polarization Shear (`TT+TE+EE` to $\ell = 2500$):** Prove strictly from the Two-Wing Big Bang waist boundary condition that knots and pleats emerge together in a purely **adiabatic** mode ($\beta_{\text{iso}} < 0.02$) and run a full 3D pleat polarization shear `CLASS` fit across all $2{,}500$ CMB multipoles.
+         2. **`[WARN]` Strong-CP QCD Angle ($\bar{\theta}$) Across the $CPT$ Waist:** Verify microscopically that topological $SU(3)$ ribbon braids keep the QCD vacuum angle $\bar{\theta}$ untwisted across the mirror boundary without requiring a separate axion particle.
+         3. **Hard Observational Kill-Switches:** (a) **JAXA LiteBIRD** large-angle B-mode ratio $= 0.415$ (a standard flat plateau $> 0.85$ falsifies the clamped waist), and (b) **KATRIN + Euclid** lightest neutrino mass $m_1 = 0.00\text{ eV}$ ($m_1 > 0.02\text{ eV}$ falsifies the $CPT$ mirror vacuum).
 
 ---
 
@@ -79,7 +82,7 @@
 | :--- | :--- | :--- | :--- |
 | **Episode 0 (Flagship)** | *The Universe Inside Out — A Visual Guide for Everyone* | Tabs 1–5 (`Plates 1–5`) | **LIVE (`https://youtu.be/Wsj3BCWtPbc`)** |
 | **Episode 1 (Chapter 1)** | *Is Time Even Real? Vinyl Records, Memory & Why GPS Satellites Run Fast* | Tabs 6–7 (`Plates 6–7`: Lacuna Unruh/CMB + GPS/Landauer/BHEX + `1.000000` Spool) | **LIVE (`https://youtu.be/gZXKEAZZLQE`)** |
-| **Episode 2 (Chapter 2)** | *The Upside-Down Big Bang & Where All the Antimatter Went* | Deng–Handley Quantized $\Omega_K$ + Quadrupole + BABAR $14\sigma$ | Planned |
+| **Episode 2 (Chapter 2)** | *The Upside-Down Big Bang & Where All the Antimatter Went* | Catenoid `334 µK²` Clamp + Deng–Handley Quantized $\Omega_K$ + BABAR $14\sigma$ $CPT$ + `99.92%` 3rd Peak Pleat Rescue | **4K Master Ready (`18:05`)** |
 | **Episode 3 (Chapter 3)** | *The Double-Slit Experiment Without Spooky Magic* | Cirq/qsim/QuTiP Two-Boundary Handshake + $21.76\ \mu\text{g}$ Knee | Planned |
 | **Episode 4 (Chapter 4)** | *Tablecloth Gravity vs. Lambda-CDM: Unmasking Dark Matter & Dark Energy* | SPARC Galaxies + Griniasty Wave Unruh + Gaia DR4 Wide Binaries | Planned |
 | **Episode 5 (Chapter 5)** | *Cosmic Trainwrecks: Bullet Cluster, JWST Early Galaxies & the Hubble Clash* | 2D NLSE Fast vs. Slow Pleat Crash + JWST $z=12$ + KBC Void | Planned |
