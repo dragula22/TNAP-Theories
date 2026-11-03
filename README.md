@@ -13,7 +13,9 @@
 
 ## NEW — Official Blind Pre-Registration Ahead of ESA `Gaia DR4` (Dec 2, 2026) & `BHEX`
 
-Before ESA opens the 66-month **`Gaia Data Release 4`** catalog on **December 2, 2026**, we have locked zero-free-parameter 3D conservative QUMOND wide-binary predictions and 2PN **`BHEX`** black-hole photon-ring numbers (with explicit falsification cutoffs and cryptographic `SHA-256` verification):
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23919217.svg)](https://doi.org/10.5281/zenodo.23919217)
+
+Before ESA opens the 66-month **`Gaia Data Release 4`** catalog on **December 2, 2026**, we have locked zero-free-parameter 3D conservative QUMOND wide-binary predictions and 2PN **`BHEX`** black-hole photon-ring numbers (with explicit falsification cutoffs, CERN Zenodo DOI **`10.5281/zenodo.23919217`**, and cryptographic `SHA-256` verification):
 
 - **Read the Full Blind Pre-Registration:** **[`predictions_2026_blind/PREREGISTRATION_GAIA_DR4_AND_BHEX.md`](predictions_2026_blind/PREREGISTRATION_GAIA_DR4_AND_BHEX.md)**
 - **Locked Machine-Readable Manifest (`SHA-256`):** [`predictions_2026_blind/preregistered_numbers_2026_11.json`](predictions_2026_blind/preregistered_numbers_2026_11.json) (`fa1f5cc50885f1de71fde71201a9320d6c071e44c586708207fb8fc3fe471328`)

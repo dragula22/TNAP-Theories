@@ -1,6 +1,7 @@
 # Pre-Registered Blind Falsification Forecast: ESA `Gaia DR4` (December 2, 2026) & `BHEX` Photon Ring
 
 - **Pre-Registration Date:** November 3, 2026 *(29 days prior to ESA `Gaia Data Release 4` on December 2, 2026)*
+- **Permanent CERN Zenodo DOI:** [`10.5281/zenodo.23919217`](https://doi.org/10.5281/zenodo.23919217)
 - **Author:** David Stoler — *Theoretically Not A Physicist (`@TNaPhysicist`)* | [`https://stoler.systems`](https://stoler.systems)
 - **Repository:** [`https://github.com/dragula22/TNAP-Theories`](https://github.com/dragula22/TNAP-Theories)
 - **Deterministic Reproduction Script:** [`run_gaia_dr4_and_bhex_preregistration.py`](run_gaia_dr4_and_bhex_preregistration.py)
