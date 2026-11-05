@@ -1,7 +1,7 @@
 # Pre-Registered Blind Falsification Forecast: ESA `Gaia DR4` (December 2, 2026) & `BHEX` Photon Ring
 
-- **Pre-Registration Date:** November 3, 2026 *(29 days prior to ESA `Gaia Data Release 4` on December 2, 2026)*
-- **Permanent CERN Zenodo DOI:** [`10.5281/zenodo.23919217`](https://doi.org/10.5281/zenodo.23919217)
+- **Pre-Registration Date:** November 3, 2026 (`v1.0.0`, 29 days prior to `DR4`) | **Pre-DR4 Calibration Addendum:** November 5, 2026 (`v1.1.0`, 27 days prior to `DR4`)
+- **Permanent CERN Zenodo DOIs:** [`10.5281/zenodo.23988569`](https://doi.org/10.5281/zenodo.23988569) (`v1.1.0` Latest) | [`10.5281/zenodo.23919217`](https://doi.org/10.5281/zenodo.23919217) (`v1.0.0` Archived Original) | [`10.5281/zenodo.23919216`](https://doi.org/10.5281/zenodo.23919216) (All-Versions Concept DOI)
 - **Author:** David Stoler — *Theoretically Not A Physicist (`@TNaPhysicist`)* | [`https://stoler.systems`](https://stoler.systems)
 - **Repository:** [`https://github.com/dragula22/TNAP-Theories`](https://github.com/dragula22/TNAP-Theories)
 - **Deterministic Reproduction Script:** [`run_gaia_dr4_and_bhex_preregistration.py`](run_gaia_dr4_and_bhex_preregistration.py)
@@ -141,7 +141,7 @@ To keep our scientific ledger 100% transparent, locking these empirical predicti
 
 ## 6. Pre-`Gaia DR4` Calibration Addendum — November 5, 2026 (`WeaveForge v1.1.0`, 27 Days Before `DR4`)
 
-> **Strict Archival Integrity:** Everything in Sections 1–5 above and [`preregistered_numbers_2026_11.json`](preregistered_numbers_2026_11.json) (`SHA-256: fa1f5cc50885f1de71fde71201a9320d6c071e44c586708207fb8fc3fe471328`) is preserved **100% untouched** as **Protocol `v1`**. On November 5, 2026—27 days before `Gaia DR4` opens—stress-testing [`WeaveForge v1.1.0`](https://github.com/dragula22/WeaveForge) (`110/110` tests, commit `9e03a30`) against **real ESA `Gaia DR3` wide binaries** and **spinning `GW150914` / `LVK O4` black-hole ringdown posteriors** yielded two major pre-`DR4` discoveries documented openly below:
+> **Strict Archival Integrity (Zenodo `10.5281/zenodo.23988569`):** Everything in Sections 1–5 above and [`preregistered_numbers_2026_11.json`](preregistered_numbers_2026_11.json) (`SHA-256: fa1f5cc50885f1de71fde71201a9320d6c071e44c586708207fb8fc3fe471328`, Zenodo `v1.0.0` [`10.5281/zenodo.23919217`](https://doi.org/10.5281/zenodo.23919217)) is preserved **100% untouched** as **Protocol `v1`**. On November 5, 2026—27 days before `Gaia DR4` opens—stress-testing [`WeaveForge v1.1.0`](https://github.com/dragula22/WeaveForge) (`110/110` tests, commit `9e03a30`) against **real ESA `Gaia DR3` wide binaries** and **spinning `GW150914` / `LVK O4` black-hole ringdown posteriors** yielded two major pre-`DR4` discoveries documented openly below:
 
 1. **Real ESA `Gaia DR3` Dry Run (`6,322` Isolated Pairs) & Locked [`zenodo_v2_manifest.json`](zenodo_v2_manifest.json) (`SHA-256: a59beaae575cef9f7cad46f8ad7cb72a14d2fc422d8c5ba857ebded97b6c4b9c`):**
    - Running untouched **Protocol `v1`** on `6,322` real `Gaia DR3` isolated pairs exposed a severe real-data systematic: ~70% of faint M-dwarf wide companions ($G \approx 16\text{–}19$) lack Gaia RVS radial velocities, allowing unbound moving-group flybys ($\Delta v_{2\text{D}} \sim 2\text{–}5\text{ km/s}$, $\tilde{v} \sim 7\text{–}16$) to leak into the `15,000 AU` bin and inflate the raw boost to **`+84.96% ± 34.56%`**.

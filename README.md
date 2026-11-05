@@ -14,11 +14,12 @@
 
 ## NEW — Official Blind Pre-Registration Ahead of ESA `Gaia DR4` (Dec 2, 2026) & `BHEX`
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23919217.svg)](https://doi.org/10.5281/zenodo.23919217)
+[![DOI v1.1.0](https://zenodo.org/badge/DOI/10.5281/zenodo.23988569.svg)](https://doi.org/10.5281/zenodo.23988569)
+[![DOI Concept](https://zenodo.org/badge/DOI/10.5281/zenodo.23919216.svg)](https://doi.org/10.5281/zenodo.23919216)
 [![Code License: AGPL v3](https://img.shields.io/badge/Code_License-GNU_AGPLv3-blue.svg)](LICENSE)
 [![Docs & Visuals: CC BY 4.0](https://img.shields.io/badge/Papers_%26_Visuals-CC_BY_4.0-lightgrey.svg)](LICENSE-DOCS.md)
 
-Before ESA opens the 66-month **`Gaia Data Release 4`** catalog on **December 2, 2026**, we have locked zero-free-parameter 3D conservative QUMOND wide-binary predictions and 2PN **`BHEX`** black-hole photon-ring numbers (with explicit falsification cutoffs, CERN Zenodo DOI **`10.5281/zenodo.23919217`**, and cryptographic `SHA-256` verification):
+Before ESA opens the 66-month **`Gaia Data Release 4`** catalog on **December 2, 2026**, we have locked zero-free-parameter 3D conservative QUMOND wide-binary predictions and strong-field black-hole falsification cutoffs on CERN Zenodo (Version `1.1.0` DOI **`10.5281/zenodo.23988569`**, archived original Version `1.0.0` DOI **`10.5281/zenodo.23919217`**, all-versions Concept DOI **`10.5281/zenodo.23919216`**):
 
 - **Read the Full Blind Pre-Registration (+ Nov 5 Pre-DR4 Calibration Addendum):** **[`predictions_2026_blind/PREREGISTRATION_GAIA_DR4_AND_BHEX.md`](predictions_2026_blind/PREREGISTRATION_GAIA_DR4_AND_BHEX.md)**
 - **Locked Machine-Readable Manifests (`SHA-256`):**
