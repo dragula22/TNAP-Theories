@@ -9,19 +9,19 @@
 
 ---
 
-## WELCOME: WeaveForge 1.0 Self-Audit, Our 5.92-Sigma LIGO Catch & Entering the Quantum Weave
+## WELCOME: WeaveForge 1.1 Self-Audit, Our 5.92-Sigma LIGO Catch & Real Gaia DR3 Dry Run
 
 ### Chunk 01 of 30 — *Intro A — Welcome Back & Making WeaveForge Un-Gameable* (`chunk_01_scene00.wav`, ~34s)
 - **Delivery / Pronunciation Note:** Warm, calm, candid tone — sharing a real behind-the-scenes scientific plot twist.
-> Welcome back, everyone. My name is David, and this is Theoretically Not A Physicist. Before we dive into today's episode on the quantum Double-Slit Experiment, I owe you an exciting—and brutally honest—update from behind the scenes. Right after Episode 2 went live, we locked version 1.0 of our open-source 3D physics wind tunnel, WeaveForge, across 107 automated tests. And I asked our team to do something scary: audit our own code ruthlessly, remove every training wheel, and try to break our own model.
+> Welcome back, everyone. My name is David, and this is Theoretically Not A Physicist. Before we dive into today's episode on the quantum Double-Slit Experiment, I owe you an exciting—and brutally honest—update from behind the scenes. Right after Episode 2 went live, we upgraded our open-source 3D physics wind tunnel, WeaveForge, to version 1.1 across 110 automated tests. And I asked our team to do something scary: audit our own code ruthlessly, remove every training wheel, and try to break our own model.
 
-### Chunk 02 of 30 — *Intro B — How Our Wind Tunnel Caught a 5.92-Sigma Black-Hole Flaw* (`chunk_02_scene00.wav`, ~39s)
+### Chunk 02 of 30 — *Intro B — How Our Wind Tunnel Caught a 5.92-Sigma Flaw & Vindicated Episode 1* (`chunk_02_scene00.wav`, ~34s)
 - **Delivery / Pronunciation Note:** 🎬 PRONUNCIATION: 'LIGO' = 'LYE-goh'  |  'BHEX' = 'BEE-hecks'. Grounded pride in real falsification.
-> And it actually broke one of our borrowed equations! Remember the smooth exponential light-bending formula that predicted a 4.63% wider black-hole shadow for the future BHEX space telescope? When WeaveForge 1.0 tested fast-spinning black-hole mergers against real LIGO gravitational-wave ringdown data, that wide throat stalled out at 2.23 bell rings—whereas LIGO's 2015 merger rang for 3.15 cycles. Our own wind tunnel ruled out that wide throat at 5.92 sigma—years before BHEX even launches—forcing black holes right back to Episode 1's tight Planck-tension spool at Einstein's exact 2GM over c-squared horizon, with testable post-merger echoes.
+> And it actually broke one of our borrowed equations! Remember the smooth exponential light-bending formula that predicted a 4.63% wider black-hole shadow for the future BHEX space telescope? Against real spinning LIGO ringdown waves, that wide throat stalled out at 2.23 bell rings instead of 3.15—failing at 5.92 sigma before BHEX even launches! Even cooler, replacing it with Episode 1's tight Planck-tension fishing-reel spool added 0 free knobs and passed LIGO at 0.33 sigma—shifting the test from shadow size to post-merger echoes.
 
-### Chunk 03 of 30 — *Intro C — Flagging the Galaxy Seam & Countdown to Gaia DR4* (`chunk_03_scene00.wav`, ~29s)
+### Chunk 03 of 30 — *Intro C — Flagging Galaxies & Dry-Running 6,322 Real Gaia DR3 Binary Stars* (`chunk_03_scene00.wav`, ~33s)
 - **Delivery / Pronunciation Note:** 🎬 PRONUNCIATION: 'Gaia' = 'GUY-uh'  |  'AeST' = 'ay-EST'. Clear, transparent status check.
-> At the same time, our upgraded cosmology referee flagged both our model and the famous 2021 peer-reviewed AeST theory yellow on galaxies—showing that unless a 0.25-megaparsec screening scale keeps baby-universe fabric pleats spread out across deep space, they would double-count inside spiral galaxies. Meanwhile, our December 2, 2026 Gaia Data Release 4 wide-binary star test—now less than a month away—sits in weak local gravity completely untouched by either seam.
+> At the same time, our referee flagged both our model and the 2021 AeST theory yellow unless a 0.25-megaparsec scale keeps baby-universe pleats spread out between galaxies. And when we dry-ran our pipeline on 6,322 real Gaia DR3 binary stars ahead of December 2, we caught unbound stellar flybys creating a fake 85% boost—cleaning that down to 0.97% plus-or-minus 9.48%, with only 1 clean halo binary so far, setting up December 2's Gaia Data Release 4 as the true tiebreaker.
 
 ### Chunk 04 of 30 — *Intro D — Today's Deep Dive: The Double-Slit Without Spooky Magic* (`chunk_04_scene00.wav`, ~31s)
 - **Delivery / Pronunciation Note:** 🎬 PRONUNCIATION: 'Feynman' = 'FINE-mun'. Calm, intriguing setup for the episode.
